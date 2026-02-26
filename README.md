@@ -2,10 +2,7 @@
 
 Authors:
 
-- Aliprandi Luan
-- Grasso Gianni
-- Maruca Matteo
-- Trentin Ismael
+-Matteo Maruca
 
 ## Specifications
 
