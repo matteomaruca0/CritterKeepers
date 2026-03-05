@@ -1,0 +1,126 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2868
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Bold;\f1\froman\fcharset0 Times-Roman;\f2\fmodern\fcharset0 Courier;
+\f3\froman\fcharset0 Times-BoldItalic;\f4\froman\fcharset0 Times-Italic;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid1\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww29200\viewh15760\viewkind0
+\deftab720
+\pard\pardeftab720\sa321\partightenfactor0
+
+\f0\b\fs48 \cf0 \expnd0\expndtw0\kerning0
+Git Comandi Terminale \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf0 La repository \'e8 uno spazio condiviso tra gli sviluppatori dove \'e8 salvato il codice del software che si sta sviluppando, comandi per scaricare il repo e lavorarci in modo asincrono:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0
+\f2\fs26 \cf0 \kerning1\expnd0\expndtw0 {\listtext	1	}\expnd0\expndtw0\kerning0
+git clone \'91<https://link-to-git-repo.git>\'92
+\f1\fs24  comando da eseguire da terminale nella cartella in cui si vuole scaricare il programma, viene scaricato tutto il repo in una cartella git (sempre all\'92interno della cartella in cui abbiamo chiamato il comando)\
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 Altri comandi:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0
+\f2\fs26 \cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+git add -N <filename>
+\f1\fs24  : permette di iniziare a tracciare il file in tutte le sue modifiche (dopo averlo modificato si fa git add e poi git commit -m)\
+\ls2\ilvl0
+\f2\fs26 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+git rm - -cached <filename>
+\f1\fs24  : permette di togliere il file dal tracciamento (\'e8 molto utile nel caso in cui abbiamo iniziato a tracciare un file contenuto nel .gitignore e solo dopo aver tracciato quel file creare il .gitignore poich\'e8 lo continuerebbe a tracciare lo stesso)\
+\ls2\ilvl0
+\f2\fs26 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+git add <filename>
+\f1\fs24  : rende persistenti le modifiche e aggiunge il file alla stage area (per aggiungerlo alla repo bisogna fare git commit -m \'93msg\'94+ git push origin)\
+\ls2\ilvl0
+\f2\fs26 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+git rm - -cached <filename>
+\f1\fs24  ******: permette di eliminare un file dal tracciamento\
+\ls2\ilvl0
+\f2\fs26 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+git branch
+\f1\fs24  ******: mostra i branch del progetto\
+\ls2\ilvl0
+\f2\fs26 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+git commit -m \'93msg\'94
+\f1\fs24  : permette di creare il commit dopo aver fatto la modifica e l\'92add del file\
+\ls2\ilvl0
+\f2\fs26 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+git push origin
+\f1\fs24  : permette di pushare verso la repo\
+\ls2\ilvl0
+\f2\fs26 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+git fetch
+\f1\fs24  : permette di vedere le modifiche apportate alla repo (i file aggiunti etc\'85) ma senza scaricare nulla (simile a git pull ma non scarica nulla)(da utilizzare se ci sono state delle modifiche ma il git status non trova nulla)\
+\ls2\ilvl0
+\f2\fs26 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+git pull
+\f1\fs24  ******: permette di scaricare le modifiche apportate alla repo\
+\ls2\ilvl0
+\f2\fs26 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+git branch <nomebranch>
+\f1\fs24  ******: permette di creare un nuovo branch (con l\'92opzione -av senza il nome del branch da lo status di tutti i branch della repo)\
+\ls2\ilvl0
+\f2\fs26 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+git checkout <nomebranch>
+\f1\fs24  : ti cambia il branch corrente per lavorare su quello (se metto -b come opzione lo creo e mi cambia il branch direttamente)\
+\ls2\ilvl0
+\f2\fs26 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+git status
+\f1\fs24  
+\f3\i\b :
+\f1\i0\b0  possiamo vedere lo stato del repo, il branch in cui si sta lavorando, mostra se ce qualche commit non pushato etc\'85 (per eseguire i comandi bisogna essere nella directory del repo scaricata con git clone)\
+\ls2\ilvl0
+\f2\fs26 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+git log
+\f1\fs24  : mostra tutti i log eseguiti sulla repo\
+\ls2\ilvl0
+\f2\fs26 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+git merge <nomebranch>
+\f1\fs24  : unisce il branch selezionato nel branch corrente (dopo aver fatto il merge bisogna eliminare il branch locale con 
+\f2\fs26 git brach -d <nomebranch>
+\f1\fs24 )\
+\ls2\ilvl0
+\f2\fs26 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+git brach -d <nomebranch>
+\f1\fs24  ******: elimina il branch\
+\ls2\ilvl0
+\f2\fs26 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+git push origin --delete v1
+\f1\fs24  : elimina il branch su git se il branch che si vuole eliminare \'e8 stato eliminato localmente con il comando sopra ma rimane su Git quello virtuale\
+\ls2\ilvl0
+\f2\fs26 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+git restore - -staged <filename>
+\f1\fs24 : quando metto nella stage area un file tramite il comando git add posso toglierlo da li con questo comando\
+\ls2\ilvl0
+\f2\fs26 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+git push --set-upstream origin v1
+\f1\fs24  : pusha verso questo branch e permette di selezionare come default questo branch ogni volta che si va a pushare\
+\ls2\ilvl0
+\f2\fs26 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+git merge - -squash dev
+\f1\fs24  : Prende tutte le modifiche introdotte dai commit del branch 
+\f2\fs26 dev
+\f1\fs24 e le condensa in un'unica serie di modifiche, le inserisce nell'area di 
+\f4\i staging
+\f1\i0  del branch corrente, n
+\f0\b on crea automaticamente un commit
+\f1\b0  e non unisce la cronologia dei singoli commit di 
+\f2\fs26 dev
+\f1\fs24 . Al termine del comando, \'e8 necessario eseguire manualmente 
+\f2\fs26 git commit
+\f1\fs24  per salvare tutte le modifiche raggruppate come un singolo e nuovo commit nel branch attuale.\
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 Concetto di 
+\f3\i\b branch (o codeline)
+\f1\i0\b0  determina la possibilit\'e0 di lavorare su un progetto attraverso diverse vie isolate completamente dagli altri branch, quando si esegue un commit su un branch si sta creando una nuova versione del progetto.\
+Se si esegue 
+\f2\fs26 cat config
+\f1\fs24  da terminale in una cartella git mostrer\'e0 molte informazioni riguardo la repo\
+Solitamente i file *.class e *.xml (tranne il pom.xml), *.iml non li vogliamo su git e vengono messi nel 
+\f3\i\b .gitignore
+\f1\i0\b0 \
+}
