@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://crk8s0yexjped"]
+
+[node name="Control" type="Control" unique_id=1504315721]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=725611939]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="New Game" type="Button" parent="VBoxContainer" unique_id=242803601]
+layout_mode = 2
+text = "New Game"
+
+[node name="Load Game" type="Button" parent="VBoxContainer" unique_id=2104142040]
+layout_mode = 2
+text = "Load Game"
+
+[node name="Settings" type="Button" parent="VBoxContainer" unique_id=1915071577]
+layout_mode = 2
+text = "Settings
+"
