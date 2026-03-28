@@ -1,0 +1,67 @@
+[gd_scene format=3 uid="uid://bvs76j4bgh4pu"]
+
+[ext_resource type="Script" uid="uid://cmmwy1ggsu8kh" path="res://scripts/dialogo_ui.gd" id="1_3r1ne"]
+
+[node name="DialogoUI" type="Control" unique_id=1421490862]
+layout_mode = 3
+anchors_preset = 0
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1_3r1ne")
+
+[node name="Pannello" type="PanelContainer" parent="." unique_id=1656745730]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 1.0
+offset_right = 287.0
+offset_bottom = 178.0
+
+[node name="MarginContainer" type="MarginContainer" parent="Pannello" unique_id=1886560249]
+layout_mode = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="VBox" type="VBoxContainer" parent="Pannello/MarginContainer" unique_id=178716982]
+custom_minimum_size = Vector2(160, 80)
+layout_mode = 2
+alignment = 1
+
+[node name="LabelNPC" type="Label" parent="Pannello/MarginContainer/VBox" unique_id=1327247079]
+layout_mode = 2
+text = "Answer correctly to get 10Xp!!"
+autowrap_mode = 2
+
+[node name="Separatore" type="HSeparator" parent="Pannello/MarginContainer/VBox" unique_id=802559246]
+layout_mode = 2
+
+[node name="LabelDomande" type="Label" parent="Pannello/MarginContainer/VBox" unique_id=1367825992]
+layout_mode = 2
+text = "Example question"
+autowrap_mode = 2
+
+[node name="HboxBottoni" type="HBoxContainer" parent="Pannello/MarginContainer/VBox" unique_id=1369791290]
+layout_mode = 2
+alignment = 1
+
+[node name="BtnA" type="Button" parent="Pannello/MarginContainer/VBox/HboxBottoni" unique_id=1718773037]
+layout_mode = 2
+text = "A"
+
+[node name="BtnB" type="Button" parent="Pannello/MarginContainer/VBox/HboxBottoni" unique_id=768301828]
+layout_mode = 2
+text = "B"
+
+[node name="BtnC" type="Button" parent="Pannello/MarginContainer/VBox/HboxBottoni" unique_id=1455034233]
+layout_mode = 2
+text = "C"
+
+[node name="LabelFeedback" type="Label" parent="Pannello/MarginContainer/VBox" unique_id=1370858313]
+layout_mode = 2
+text = "Feedback"
+autowrap_mode = 2
+
+[node name="BtnChiudi" type="Button" parent="Pannello/MarginContainer/VBox" unique_id=1313931181]
+layout_mode = 2
+text = "Close"
+autowrap_mode = 2

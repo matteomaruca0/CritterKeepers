@@ -1,0 +1,100 @@
+{
+  "questions": [
+	{
+	  "id": 1,
+	  "question": "What is the capital of Italy?",
+	  "options": {
+		"A": "Milan",
+		"B": "Rome",
+		"C": "Naples"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Exactly! Rome is the capital of Italy.",
+	  "incorrect_feedback": "Wrong! The capital is Rome."
+	},
+	{
+	  "id": 2,
+	  "question": "How many planets does the solar system have?",
+	  "options": {
+		"A": "7",
+		"B": "9",
+		"C": "8"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Correct! There are 8 planets.",
+	  "incorrect_feedback": "Incorrect! There are 8 planets in the solar system."
+	},
+	{
+	  "id": 3,
+	  "question": "Who painted the Mona Lisa?",
+	  "options": {
+		"A": "Leonardo da Vinci",
+		"B": "Michelangelo",
+		"C": "Raphael"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Well done! It is the work of Leonardo da Vinci.",
+	  "incorrect_feedback": "Wrong! The author is Leonardo da Vinci."
+	},
+	{
+	  "id": 4,
+	  "question": "In what year did World War II end?",
+	  "options": {
+		"A": "1943",
+		"B": "1918",
+		"C": "1945"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Exactly! It ended in 1945.",
+	  "incorrect_feedback": "Incorrect. The war ended in 1945."
+	},
+	{
+	  "id": 5,
+	  "question": "What is the chemical symbol for Oxygen?",
+	  "options": {
+		"A": "Os",
+		"B": "O",
+		"C": "Og"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Right! The symbol for Oxygen is O.",
+	  "incorrect_feedback": "Wrong! The symbol for Oxygen is O."
+	},
+	{
+	  "id": 6,
+	  "question": "What is the square root of 144?",
+	  "options": {
+		"A": "14",
+		"B": "12",
+		"C": "16"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Perfect! The square root of 144 is 12.",
+	  "incorrect_feedback": "Not exactly. The answer is 12."
+	},
+	{
+	  "id": 7,
+	  "question": "Which ocean is the largest in the world?",
+	  "options": {
+		"A": "Atlantic",
+		"B": "Indian",
+		"C": "Pacific"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Correct! The Pacific is the largest.",
+	  "incorrect_feedback": "Wrong! The largest is the Pacific."
+	},
+	{
+	  "id": 8,
+	  "question": "Who wrote the Divine Comedy?",
+	  "options": {
+		"A": "Petrarch",
+		"B": "Boccaccio",
+		"C": "Dante Alighieri"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Exactly! Dante Alighieri wrote it.",
+	  "incorrect_feedback": "Wrong! The author is Dante Alighieri."
+	}
+  ]
+}

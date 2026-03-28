@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://btf2b5mfatdhd"]
+
+[ext_resource type="Script" uid="uid://bgsc67ex8q8mp" path="res://scripts/NPCguru.gd" id="1_22ww6"]
+[ext_resource type="Texture2D" uid="uid://bmci52ab3x6nr" path="res://assets/sprites/Player 1 red- Light skin.png" id="1_mu2hp"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_22ww6"]
+radius = 109.48972
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_mu2hp"]
+radius = 152.3286
+
+[node name="NPCguru" type="StaticBody2D" unique_id=877199368]
+scale = Vector2(0.075, 0.075)
+script = ExtResource("1_22ww6")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1666470765]
+position = Vector2(0, -79)
+texture = ExtResource("1_mu2hp")
+hframes = 3
+vframes = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=193591483]
+position = Vector2(24, -119)
+shape = SubResource("CircleShape2D_22ww6")
+
+[node name="AreaInterazione" type="Area2D" parent="." unique_id=1384943937]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AreaInterazione" unique_id=1976931138]
+position = Vector2(24, -119)
+shape = SubResource("CircleShape2D_mu2hp")
+
+[node name="LabelInteragisci" type="Label" parent="." unique_id=478694216]
+offset_left = -280.0
+offset_top = -386.66666
+offset_right = 253.33331
+offset_bottom = -290.66666
+theme_override_font_sizes/font_size = 70
+text = "[E] Interagisci"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2

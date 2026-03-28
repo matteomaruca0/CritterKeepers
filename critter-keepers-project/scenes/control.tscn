@@ -1,12 +1,12 @@
 [gd_scene format=3 uid="uid://crk8s0yexjped"]
 
-[ext_resource type="Texture2D" uid="uid://bthchn2b7n3dk" path="res://background1.png" id="1_0fbet"]
-[ext_resource type="Script" uid="uid://bi6awijfdu5rr" path="res://main_menu.gd" id="1_qtu10"]
-[ext_resource type="FontFile" uid="uid://cs0bp4s0xg7ri" path="res://GrapeSoda.ttf" id="2_62e2m"]
-[ext_resource type="Texture2D" uid="uid://crnqm5pqmfohp" path="res://Small-8-Direction-Characters_by_AxulArt.png" id="4_ee4bf"]
+[ext_resource type="Script" uid="uid://bi6awijfdu5rr" path="res://scripts/main_menu.gd" id="1_8n18e"]
+[ext_resource type="Texture2D" uid="uid://bthchn2b7n3dk" path="res://background1.png" id="2_tjwpk"]
+[ext_resource type="FontFile" uid="uid://cs0bp4s0xg7ri" path="res://GrapeSoda.ttf" id="3_lpubu"]
+[ext_resource type="Texture2D" uid="uid://crnqm5pqmfohp" path="res://Small-8-Direction-Characters_by_AxulArt.png" id="4_lt2xq"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_62e2m"]
-texture = ExtResource("1_0fbet")
+texture = ExtResource("2_tjwpk")
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_qtu10"]
 
@@ -247,7 +247,7 @@ offset_left = 1.0
 offset_right = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_qtu10")
+script = ExtResource("1_8n18e")
 
 [node name="Panel" type="Panel" parent="Main Menu" unique_id=904192908]
 layout_mode = 1
@@ -299,7 +299,7 @@ theme_override_colors/font_outline_color = Color(0.015686275, 0.015686275, 0.011
 theme_override_constants/shadow_offset_x = 0
 theme_override_constants/shadow_offset_y = 3
 theme_override_constants/outline_size = 20
-theme_override_fonts/font = ExtResource("2_62e2m")
+theme_override_fonts/font = ExtResource("3_lpubu")
 theme_override_font_sizes/font_size = 90
 theme_override_styles/normal = SubResource("StyleBoxEmpty_qtu10")
 text = "Critter Keepers
@@ -310,7 +310,7 @@ text = "Critter Keepers
 [node name="Player" type="CharacterBody2D" parent="Game" unique_id=1245411479]
 
 [node name="Sprite2D" type="Sprite2D" parent="Game/Player" unique_id=628479329]
-texture = ExtResource("4_ee4bf")
+texture = ExtResource("4_lt2xq")
 hframes = 8
 vframes = 12
 frame = 72
