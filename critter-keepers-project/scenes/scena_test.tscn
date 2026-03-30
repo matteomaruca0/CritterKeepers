@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://ccsnaucj8wg1o" path="res://assets/graphics/backgrounds/photoToUse/costal.png" id="5_48uc6"]
 [ext_resource type="PackedScene" uid="uid://b214xqehvio0w" path="res://scenes/player.tscn" id="6_b0hp1"]
 [ext_resource type="PackedScene" uid="uid://bvs76j4bgh4pu" path="res://scenes/dialogo_ui.tscn" id="8_se545"]
+[ext_resource type="PackedScene" uid="uid://c8f5171s10ajs" path="res://scenes/progressBar.tscn" id="9_ap3cc"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ub8fd"]
 texture = ExtResource("1_bmsua")
@@ -2633,10 +2634,8 @@ layer_2/tile_data = PackedInt32Array(-3735505, 786442, 35, -3735504, 851978, 35,
 [node name="Player" parent="." unique_id=324827337 instance=ExtResource("6_b0hp1")]
 
 [node name="DialogoUI" parent="Player" unique_id=1397346427 groups=["dialogo_ui"] instance=ExtResource("8_se545")]
-offset_left = 15.0
-offset_top = -105.0
-offset_right = 15.0
-offset_bottom = -105.0
 
 [node name="NPCguru" parent="." unique_id=877199368 instance=ExtResource("1_imqjq")]
 position = Vector2(70.99999, -45.999996)
+
+[node name="HUD" parent="." unique_id=254681411 groups=["hud"] instance=ExtResource("9_ap3cc")]

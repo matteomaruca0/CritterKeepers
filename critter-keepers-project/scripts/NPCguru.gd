@@ -49,6 +49,9 @@ func _on_player_uscito(body: Node2D) -> void:
 
 func _input(event: InputEvent) -> void:
 	if player_in_range and event.is_action_pressed("ui_accept"):
+		var dialogo = get_tree().get_first_node_in_group("dialogo_ui")
+		if dialogo and dialogo.visible:
+			return
 		_avvia_dialogo()
 
 func _avvia_dialogo() -> void:

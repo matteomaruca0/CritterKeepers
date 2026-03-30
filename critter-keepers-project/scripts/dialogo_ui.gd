@@ -8,6 +8,7 @@ extends Control
 @onready var btn_chiudi: Button = $Pannello/MarginContainer/VBox/BtnChiudi
 
 var domanda_attuale: Dictionary = {}
+var hud: CanvasLayer = null
 
 func _ready() -> void:
 	visible = false
@@ -17,6 +18,13 @@ func _ready() -> void:
 	btn_b.pressed.connect(_on_risposta_selezionata.bind("B"))
 	btn_c.pressed.connect(_on_risposta_selezionata.bind("C"))
 	btn_chiudi.pressed.connect(_on_btn_chiudi_pressed)
+	
+	hud = get_tree().get_first_node_in_group("hud")
+	
+	if hud:
+		print("HUD trovata: ", hud.name)
+	else:
+		print("ERRORE: HUD non trovata! Hai aggiunto il nodo HUD al gruppo 'hud'?")
 
 func mostra_domanda(domanda: Dictionary) -> void:
 	domanda_attuale = domanda
@@ -41,6 +49,8 @@ func _on_risposta_selezionata(scelta: String) -> void:
 	if scelta == domanda_attuale["correct_answer"]:
 		label_feedback.text = domanda_attuale["correct_feedback"]
 		label_feedback.modulate = Color(0.2, 0.8, 0.2)
+		if hud:
+			hud.risposta_corretta()
 	else:
 		label_feedback.text = domanda_attuale["incorrect_feedback"]
 		label_feedback.modulate = Color(0.8, 0.2, 0.2)
