@@ -378,6 +378,7 @@ tile_set = SubResource("TileSet_jh32y")
 [node name="Player" parent="." unique_id=324827337 instance=ExtResource("5_nakos")]
 y_sort_enabled = true
 position = Vector2(30, 28)
+motion_mode = 0
 
 [node name="Obstacles" type="TileMapLayer" parent="." unique_id=42176599]
 y_sort_enabled = true
