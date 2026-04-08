@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://4tn7ay35gs3w"
-path="res://.godot/imported/16x16 world farming tileset.png-ad11229d2ca844eeb7ca09e66a6fabf7.ctex"
+uid="uid://ol7mpv234hxt"
+path="res://.godot/imported/vectoraith_tileset_biome_alpine_A.png-a190a0701501d66cf96191acbd34cace.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/graphics/backgrounds/photoToUse/16x16 world farming tileset.png"
-dest_files=["res://.godot/imported/16x16 world farming tileset.png-ad11229d2ca844eeb7ca09e66a6fabf7.ctex"]
+source_file="res://assets/graphics/backgrounds/Biome Tileset Pack D/16x16/alpine/tilesets - RPG Maker ready/vectoraith_tileset_biome_alpine_A.png"
+dest_files=["res://.godot/imported/vectoraith_tileset_biome_alpine_A.png-a190a0701501d66cf96191acbd34cace.ctex"]
 
 [params]
 

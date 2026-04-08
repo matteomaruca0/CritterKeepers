@@ -1,0 +1,141 @@
+[gd_scene format=4 uid="uid://b2ci8xg68fhgm"]
+
+[ext_resource type="Texture2D" uid="uid://5k4posbhawi8" path="res://assets/graphics/backgrounds/photoToUse/artic2.png" id="1_mvwog"]
+[ext_resource type="Script" uid="uid://cckf030ujj8ef" path="res://scripts/travel.gd" id="2_vufmg"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vufmg"]
+texture = ExtResource("1_mvwog")
+64:53/0 = 0
+65:53/0 = 0
+65:52/0 = 0
+64:52/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_5cysa"]
+sources/0 = SubResource("TileSetAtlasSource_vufmg")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mvwog"]
+texture = ExtResource("1_mvwog")
+32:124/0 = 0
+32:125/0 = 0
+32:126/0 = 0
+33:127/0 = 0
+32:127/0 = 0
+34:127/0 = 0
+33:126/0 = 0
+33:125/0 = 0
+33:124/0 = 0
+34:124/0 = 0
+34:125/0 = 0
+34:126/0 = 0
+35:126/0 = 0
+35:127/0 = 0
+36:127/0 = 0
+37:127/0 = 0
+38:127/0 = 0
+38:126/0 = 0
+39:126/0 = 0
+39:127/0 = 0
+39:125/0 = 0
+39:124/0 = 0
+38:124/0 = 0
+37:124/0 = 0
+36:124/0 = 0
+35:124/0 = 0
+35:125/0 = 0
+36:125/0 = 0
+36:126/0 = 0
+37:126/0 = 0
+37:125/0 = 0
+38:125/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_vufmg"]
+sources/0 = SubResource("TileSetAtlasSource_mvwog")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vufmg"]
+size = Vector2(20, 50)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ve50y"]
+texture = ExtResource("1_mvwog")
+64:53/0 = 0
+65:53/0 = 0
+65:52/0 = 0
+64:52/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_gxk36"]
+sources/0 = SubResource("TileSetAtlasSource_ve50y")
+
+[node name="PierRock" type="Node2D" unique_id=415599918]
+
+[node name="Wood" type="TileMapLayer" parent="." unique_id=271820983]
+tile_map_data = PackedByteArray("AAAzABIAAABAADQAAAAzABMAAABAADUAAAA0ABIAAABBADQAAAA0ABMAAABBADUAAAAxABIAAABAADQAAAAxABMAAABAADUAAAAyABIAAABBADQAAAAyABMAAABBADUAAAA=")
+tile_set = SubResource("TileSet_5cysa")
+
+[node name="Pier" type="TileMapLayer" parent="Wood" unique_id=1040383833]
+tile_map_data = PackedByteArray("AAAtABIAAAAgAHwAAAAtABMAAAAgAH0AAAAtABQAAAAgAH4AAAAtABUAAAAgAH8AAAAuABIAAAAhAHwAAAAuABMAAAAhAH0AAAAuABQAAAAhAH4AAAAuABUAAAAhAH8AAAAvABIAAAAiAHwAAAAvABMAAAAiAH0AAAAvABQAAAAiAH4AAAAvABUAAAAiAH8AAAAwABIAAAAjAHwAAAAwABMAAAAjAH0AAAAwABQAAAAjAH4AAAAwABUAAAAjAH8AAAAxABIAAAAkAHwAAAAxABMAAAAkAH0AAAAxABQAAAAkAH4AAAAxABUAAAAkAH8AAAAyABIAAAAlAHwAAAAyABMAAAAlAH0AAAAyABQAAAAlAH4AAAAyABUAAAAlAH8AAAAzABIAAAAmAHwAAAAzABMAAAAmAH0AAAAzABQAAAAmAH4AAAAzABUAAAAmAH8AAAA0ABIAAAAnAHwAAAA0ABMAAAAnAH0AAAA0ABQAAAAnAH4AAAA0ABUAAAAnAH8AAAA=")
+tile_set = SubResource("TileSet_vufmg")
+
+[node name="Area2D" type="Area2D" parent="Wood/Pier" unique_id=1302721574]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wood/Pier/Area2D" unique_id=2132150357]
+position = Vector2(837, 322)
+shape = SubResource("RectangleShape2D_vufmg")
+
+[node name="Wood" type="TileMapLayer" parent="Wood/Pier" unique_id=1333529446]
+tile_map_data = PackedByteArray("AAAzABUAAABAADQAAAAzABYAAABAADUAAAA0ABUAAABBADQAAAA0ABYAAABBADUAAAAxABUAAABAADQAAAAxABYAAABAADUAAAAyABUAAABBADQAAAAyABYAAABBADUAAAA=")
+tile_set = SubResource("TileSet_gxk36")
+
+[node name="TravelPanel" type="CanvasLayer" parent="." unique_id=997158265]
+script = ExtResource("2_vufmg")
+
+[node name="Panel" type="Panel" parent="TravelPanel" unique_id=1654883329]
+custom_minimum_size = Vector2(0, 150)
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Label" type="Label" parent="TravelPanel/Panel" unique_id=972702717]
+layout_mode = 0
+offset_left = 595.0
+offset_right = 843.0
+offset_bottom = 23.0
+text = "Do you want to go to the next island?"
+
+[node name="YesNoContainer" type="HBoxContainer" parent="TravelPanel/Panel" unique_id=69605913]
+layout_mode = 0
+offset_left = 671.0
+offset_top = 23.0
+offset_right = 754.0
+offset_bottom = 63.0
+
+[node name="BtnYes" type="Button" parent="TravelPanel/Panel/YesNoContainer" unique_id=1739931545]
+layout_mode = 2
+text = "Yes"
+
+[node name="BtnNo" type="Button" parent="TravelPanel/Panel/YesNoContainer" unique_id=470067947]
+layout_mode = 2
+text = "No"
+
+[node name="ChooseContainer" type="VBoxContainer" parent="TravelPanel/Panel" unique_id=1116289221]
+layout_mode = 0
+offset_left = 640.0
+offset_top = 57.0
+offset_right = 788.0
+offset_bottom = 150.0
+alignment = 1
+
+[node name="Label" type="Label" parent="TravelPanel/Panel/ChooseContainer" unique_id=713808010]
+layout_mode = 2
+text = "How do you want to go?"
+
+[node name="BtnSwim" type="Button" parent="TravelPanel/Panel/ChooseContainer" unique_id=379349543]
+layout_mode = 2
+text = "Swim"
+
+[node name="BtnFly" type="Button" parent="TravelPanel/Panel/ChooseContainer" unique_id=1726494027]
+layout_mode = 2
+text = "Fly"
+
+[connection signal="body_entered" from="Wood/Pier/Area2D" to="TravelPanel" method="_on_area_2d_body_entered"]

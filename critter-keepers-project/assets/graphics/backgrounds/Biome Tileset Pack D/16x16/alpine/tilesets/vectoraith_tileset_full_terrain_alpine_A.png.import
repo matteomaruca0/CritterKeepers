@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b81kguk6a01ek"
-path="res://.godot/imported/fxXhhW.png-380fd30196f37c025b411292749aad17.ctex"
+uid="uid://bw4mb6dncjeh1"
+path="res://.godot/imported/vectoraith_tileset_full_terrain_alpine_A.png-eb848e5c6a40363408d1b735f4e5ac45.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/graphics/backgrounds/fxXhhW.png"
-dest_files=["res://.godot/imported/fxXhhW.png-380fd30196f37c025b411292749aad17.ctex"]
+source_file="res://assets/graphics/backgrounds/Biome Tileset Pack D/16x16/alpine/tilesets/vectoraith_tileset_full_terrain_alpine_A.png"
+dest_files=["res://.godot/imported/vectoraith_tileset_full_terrain_alpine_A.png-eb848e5c6a40363408d1b735f4e5ac45.ctex"]
 
 [params]
 

@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://co5wigof7uuc1"]
 
-[ext_resource type="Texture2D" uid="uid://b81kguk6a01ek" path="res://assets/graphics/backgrounds/fxXhhW.png" id="1_0wfyh"]
+[ext_resource type="Texture2D" uid="uid://b81kguk6a01ek" path="res://assets/graphics/backgrounds/photoToUse/fxXhhW.png" id="1_0wfyh"]
 [ext_resource type="Texture2D" uid="uid://5k4posbhawi8" path="res://assets/graphics/backgrounds/photoToUse/artic2.png" id="2_p57ef"]
 [ext_resource type="Texture2D" uid="uid://dgbhhjnoa06ki" path="res://assets/graphics/backgrounds/houses.png" id="2_sugp2"]
 [ext_resource type="PackedScene" uid="uid://b214xqehvio0w" path="res://scenes/player.tscn" id="3_lnu2h"]
