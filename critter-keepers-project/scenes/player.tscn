@@ -39,8 +39,8 @@ animations = [{
 "speed": 10.0
 }]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_g2els"]
-radius = 6.0207973
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g2els"]
+size = Vector2(10, 11)
 
 [node name="Player" type="CharacterBody2D" unique_id=324827337 groups=["player"]]
 z_as_relative = false
@@ -58,5 +58,5 @@ zoom = Vector2(2, 2)
 position_smoothing_enabled = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=426902025]
-position = Vector2(-1, 6.5)
-shape = SubResource("CircleShape2D_g2els")
+position = Vector2(0, 5.5)
+shape = SubResource("RectangleShape2D_g2els")
