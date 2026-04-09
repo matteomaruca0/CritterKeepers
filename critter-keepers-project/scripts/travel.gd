@@ -9,6 +9,7 @@ signal annullato
 @onready var btn_no = $Panel/YesNoContainer/BtnNo
 @onready var btn_nuota = $Panel/ChooseContainer/BtnSwim
 @onready var btn_vola = $Panel/ChooseContainer/BtnFly
+@onready var barriera = get_tree().get_first_node_in_group("barriera")
 
 var volo_sbloccato = false  # diventa true nella prossima isola
 
@@ -31,6 +32,7 @@ func _on_si():
 	btn_si.visible = false
 	btn_no.visible = false
 	scelta_container.visible = true
+	barriera.disabled = true 
 	# Volare è bloccato se non sbloccato
 	btn_vola.disabled = !volo_sbloccato
 	btn_vola.text = "🐦 Fly" if volo_sbloccato else "🐦 Fly (locked 🔒)"
@@ -39,6 +41,7 @@ func _on_no():
 	visible = false
 	annullato.emit()
 	get_tree().get_first_node_in_group("player").bloccato = false
+	barriera.disabled = false  # attiva barriera fisica
 
 func _on_nuota():
 	visible = false

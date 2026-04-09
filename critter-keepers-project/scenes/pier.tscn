@@ -16,31 +16,47 @@ sources/0 = SubResource("TileSetAtlasSource_vufmg")
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mvwog"]
 texture = ExtResource("1_mvwog")
 32:124/0 = 0
+32:124/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 0.791378, 8, 0.89030075, 8, 8, -8, 8)
 32:125/0 = 0
 32:126/0 = 0
 33:127/0 = 0
+33:127/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 0.791378, 8, 0.89030075, 8, 8, -8, 8)
 32:127/0 = 0
+32:127/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 0.791378, 8, 0.89030075, 8, 8, -8, 8)
 34:127/0 = 0
+34:127/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 0.791378, 8, 0.89030075, 8, 8, -8, 8)
 33:126/0 = 0
 33:125/0 = 0
 33:124/0 = 0
+33:124/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 0.791378, 8, 0.89030075, 8, 8, -8, 8)
 34:124/0 = 0
+34:124/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 0.791378, 8, 0.89030075, 8, 8, -8, 8)
 34:125/0 = 0
 34:126/0 = 0
 35:126/0 = 0
 35:127/0 = 0
+35:127/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 0.791378, 8, 0.89030075, 8, 8, -8, 8)
 36:127/0 = 0
+36:127/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 0.791378, 8, 0.89030075, 8, 8, -8, 8)
 37:127/0 = 0
+37:127/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 0.791378, 8, 0.89030075, 8, 8, -8, 8)
 38:127/0 = 0
+38:127/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 0.791378, 8, 0.89030075, 8, 8, -8, 8)
 38:126/0 = 0
 39:126/0 = 0
 39:127/0 = 0
+39:127/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 0.791378, 8, 0.89030075, 8, 8, -8, 8)
 39:125/0 = 0
 39:124/0 = 0
+39:124/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 0.791378, 8, 0.89030075, 8, 8, -8, 8)
 38:124/0 = 0
+38:124/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 0.791378, 8, 0.89030075, 8, 8, -8, 8)
 37:124/0 = 0
+37:124/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 0.791378, 8, 0.89030075, 8, 8, -8, 8)
 36:124/0 = 0
+36:124/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 0.791378, 8, 0.89030075, 8, 8, -8, 8)
 35:124/0 = 0
+35:124/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 0.791378, 8, 0.89030075, 8, 8, -8, 8)
 35:125/0 = 0
 36:125/0 = 0
 36:126/0 = 0
@@ -49,7 +65,22 @@ texture = ExtResource("1_mvwog")
 38:125/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_vufmg"]
+physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_mvwog")
+
+[sub_resource type="GDScript" id="GDScript_vufmg"]
+script/source = "extends Area2D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vufmg"]
 size = Vector2(20, 50)
@@ -64,6 +95,9 @@ texture = ExtResource("1_mvwog")
 [sub_resource type="TileSet" id="TileSet_gxk36"]
 sources/0 = SubResource("TileSetAtlasSource_ve50y")
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ve50y"]
+size = Vector2(10, 54)
+
 [node name="PierRock" type="Node2D" unique_id=415599918]
 
 [node name="Wood" type="TileMapLayer" parent="." unique_id=271820983]
@@ -75,14 +109,23 @@ tile_map_data = PackedByteArray("AAAtABIAAAAgAHwAAAAtABMAAAAgAH0AAAAtABQAAAAgAH4
 tile_set = SubResource("TileSet_vufmg")
 
 [node name="Area2D" type="Area2D" parent="Wood/Pier" unique_id=1302721574]
+script = SubResource("GDScript_vufmg")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Wood/Pier/Area2D" unique_id=2132150357]
+[node name="CollisionShapeTravel" type="CollisionShape2D" parent="Wood/Pier/Area2D" unique_id=2132150357]
 position = Vector2(837, 322)
 shape = SubResource("RectangleShape2D_vufmg")
 
 [node name="Wood" type="TileMapLayer" parent="Wood/Pier" unique_id=1333529446]
 tile_map_data = PackedByteArray("AAAzABUAAABAADQAAAAzABYAAABAADUAAAA0ABUAAABBADQAAAA0ABYAAABBADUAAAAxABUAAABAADQAAAAxABYAAABAADUAAAAyABUAAABBADQAAAAyABYAAABBADUAAAA=")
 tile_set = SubResource("TileSet_gxk36")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Wood/Pier" unique_id=567623380]
+position = Vector2(130, 50)
+
+[node name="CollisionShapeBarrier" type="CollisionShape2D" parent="Wood/Pier/StaticBody2D" unique_id=492368424 groups=["barriera"]]
+position = Vector2(723, 273)
+shape = SubResource("RectangleShape2D_ve50y")
+disabled = true
 
 [node name="TravelPanel" type="CanvasLayer" parent="." unique_id=997158265]
 script = ExtResource("2_vufmg")
