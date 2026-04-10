@@ -2638,4 +2638,4 @@ layer_2/tile_data = PackedInt32Array(-3735505, 786442, 35, -3735504, 851978, 35,
 [node name="NPCguru" parent="." unique_id=877199368 instance=ExtResource("1_imqjq")]
 position = Vector2(70.99999, -45.999996)
 
-[node name="HUD" parent="." unique_id=254681411 groups=["hud"] instance=ExtResource("9_ap3cc")]
+[node name="HUD" parent="." unique_id=254681411 instance=ExtResource("9_ap3cc")]

@@ -21,10 +21,10 @@ func _ready() -> void:
 	
 	hud = get_tree().get_first_node_in_group("hud")
 	
-	if hud:
-		print("HUD trovata: ", hud.name)
-	else:
-		print("ERRORE: HUD non trovata! Hai aggiunto il nodo HUD al gruppo 'hud'?")
+	#if hud:
+	#	print("HUD trovata: ", hud.name)
+	#else:
+	#	print("ERRORE: HUD non trovata! Hai aggiunto il nodo HUD al gruppo 'hud'?")
 
 func mostra_domanda(domanda: Dictionary) -> void:
 	domanda_attuale = domanda
