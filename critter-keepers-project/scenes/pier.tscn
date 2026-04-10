@@ -128,57 +128,61 @@ shape = SubResource("RectangleShape2D_ve50y")
 disabled = true
 
 [node name="TravelPanel" type="CanvasLayer" parent="." unique_id=997158265]
+auto_translate_mode = 1
 script = ExtResource("2_vufmg")
 
 [node name="Panel" type="Panel" parent="TravelPanel" unique_id=1654883329]
+auto_translate_mode = 1
 custom_minimum_size = Vector2(0, 150)
 anchors_preset = 12
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_top = -170.0
 grow_horizontal = 2
 grow_vertical = 0
 
 [node name="Label" type="Label" parent="TravelPanel/Panel" unique_id=972702717]
+auto_translate_mode = 1
 layout_mode = 0
 offset_left = 595.0
-offset_right = 843.0
+offset_right = 711.0
 offset_bottom = 23.0
-text = "Do you want to go to the next island?"
+text = "VUOI_ANDARE"
 
 [node name="YesNoContainer" type="HBoxContainer" parent="TravelPanel/Panel" unique_id=69605913]
 layout_mode = 0
-offset_left = 671.0
-offset_top = 23.0
-offset_right = 754.0
-offset_bottom = 63.0
+offset_left = 617.0
+offset_top = 29.0
+offset_right = 700.0
+offset_bottom = 69.0
 
 [node name="BtnYes" type="Button" parent="TravelPanel/Panel/YesNoContainer" unique_id=1739931545]
 layout_mode = 2
-text = "Yes"
+text = "SI"
 
 [node name="BtnNo" type="Button" parent="TravelPanel/Panel/YesNoContainer" unique_id=470067947]
 layout_mode = 2
-text = "No"
+text = "NO"
 
 [node name="ChooseContainer" type="VBoxContainer" parent="TravelPanel/Panel" unique_id=1116289221]
 layout_mode = 0
-offset_left = 640.0
-offset_top = 57.0
-offset_right = 788.0
-offset_bottom = 150.0
+offset_left = 569.0
+offset_top = 69.0
+offset_right = 733.0
+offset_bottom = 162.0
 alignment = 1
 
 [node name="Label" type="Label" parent="TravelPanel/Panel/ChooseContainer" unique_id=713808010]
 layout_mode = 2
-text = "How do you want to go?"
+text = "COME_VUOI_ANDARE"
 
 [node name="BtnSwim" type="Button" parent="TravelPanel/Panel/ChooseContainer" unique_id=379349543]
 layout_mode = 2
-text = "Swim"
+text = "NUOTARE"
 
 [node name="BtnFly" type="Button" parent="TravelPanel/Panel/ChooseContainer" unique_id=1726494027]
 layout_mode = 2
-text = "Fly"
+text = "VOLARE"
 
 [connection signal="body_entered" from="Wood/Pier/Area2D" to="TravelPanel" method="_on_area_2d_body_entered"]

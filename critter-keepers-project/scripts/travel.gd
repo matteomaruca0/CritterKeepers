@@ -34,7 +34,7 @@ func _on_si():
 	btn_no.visible = false
 	scelta_container.visible = true
 	btn_vola.disabled = !volo_sbloccato
-	btn_vola.text = "🐦 Fly" if volo_sbloccato else "🐦 Fly (locked 🔒)"
+	btn_vola.text = tr("VOLARE") if volo_sbloccato else tr("VOLARE_BLOCCATO")
 
 func _on_no():
 	visible = false
