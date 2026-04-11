@@ -14,6 +14,10 @@ config/name="CritterKeepersProject"
 run/main_scene="uid://crk8s0yexjped"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 
+[autoload]
+
+GameManager="*uid://6gt0ik2tadac"
+
 [display]
 
 window/size/viewport_width=1280
