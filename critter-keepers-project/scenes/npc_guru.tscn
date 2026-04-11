@@ -7,13 +7,14 @@
 radius = 109.48972
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_mu2hp"]
-radius = 152.3286
+radius = 397.8
 
 [node name="NPCguru" type="StaticBody2D" unique_id=877199368]
 scale = Vector2(0.075, 0.075)
 script = ExtResource("1_22ww6")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1666470765]
+z_index = 1
 position = Vector2(0, -79)
 texture = ExtResource("1_mu2hp")
 hframes = 3
