@@ -4,16 +4,27 @@
 
 [node name="DialogoUI" type="Control" unique_id=1421490862]
 layout_mode = 3
-anchors_preset = 0
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 scale = Vector2(0.5, 0.5)
 script = ExtResource("1_3r1ne")
 
 [node name="Pannello" type="PanelContainer" parent="." unique_id=1656745730]
-layout_mode = 0
-offset_left = 1.0
-offset_top = 1.0
-offset_right = 287.0
-offset_bottom = 178.0
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -143.0
+offset_top = -97.5
+offset_right = 143.0
+offset_bottom = 97.5
+grow_horizontal = 2
+grow_vertical = 2
 
 [node name="MarginContainer" type="MarginContainer" parent="Pannello" unique_id=1886560249]
 layout_mode = 2
@@ -53,6 +64,10 @@ layout_mode = 2
 text = "B"
 
 [node name="BtnC" type="Button" parent="Pannello/MarginContainer/VBox/HboxBottoni" unique_id=1455034233]
+layout_mode = 2
+text = "C"
+
+[node name="BtnD" type="Button" parent="Pannello/MarginContainer/VBox/HboxBottoni" unique_id=1496204639]
 layout_mode = 2
 text = "C"
 

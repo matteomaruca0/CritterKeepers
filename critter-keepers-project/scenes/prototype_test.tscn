@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://u2br7iqjfe3o"]
+
+[ext_resource type="PackedScene" uid="uid://b2h6ko75tduc5" path="res://scenes/startingmenu.tscn" id="1_5ow0q"]
+[ext_resource type="PackedScene" uid="uid://blpsce7ajqss5" path="res://scenes/map2.tscn" id="2_8gr2b"]
+
+[node name="PrototypeTest" type="Node2D" unique_id=1365371811]
+
+[node name="menu" parent="." unique_id=1490523773 instance=ExtResource("1_5ow0q")]
+
+[node name="game" parent="menu" unique_id=1467038574 instance=ExtResource("2_8gr2b")]

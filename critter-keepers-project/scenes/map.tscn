@@ -1,6 +1,6 @@
 [gd_scene format=4 uid="uid://bceiqqh0sp46p"]
 
-[ext_resource type="Script" uid="uid://2mj0ha57x3th" path="res://scripts/map.gd" id="1_blm8a"]
+[ext_resource type="Script" path="res://scripts/map.gd" id="1_blm8a"]
 [ext_resource type="Texture2D" uid="uid://dgayewuwetmb3" path="res://assets/graphics/backgrounds/Water+.png" id="1_paxxb"]
 [ext_resource type="Texture2D" uid="uid://4tn7ay35gs3w" path="res://assets/graphics/backgrounds/16x16 world farming tileset.png" id="2_gldc4"]
 [ext_resource type="Texture2D" uid="uid://cu2sdqipkfytn" path="res://assets/graphics/animated/Foam.png" id="3_2klcf"]
