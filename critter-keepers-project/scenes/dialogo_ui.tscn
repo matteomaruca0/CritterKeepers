@@ -40,7 +40,7 @@ alignment = 1
 
 [node name="LabelNPC" type="Label" parent="Pannello/MarginContainer/VBox" unique_id=1327247079]
 layout_mode = 2
-text = "Answer correctly to get 10Xp!!"
+text = "RISPONDI_CORRETTAMENTE_PER_RICEVERE"
 autowrap_mode = 2
 
 [node name="Separatore" type="HSeparator" parent="Pannello/MarginContainer/VBox" unique_id=802559246]
@@ -78,5 +78,5 @@ autowrap_mode = 2
 
 [node name="BtnChiudi" type="Button" parent="Pannello/MarginContainer/VBox" unique_id=1313931181]
 layout_mode = 2
-text = "Close"
+text = "CHIUDI"
 autowrap_mode = 2

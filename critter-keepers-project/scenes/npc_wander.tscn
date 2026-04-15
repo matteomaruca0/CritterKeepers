@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://ds77t60udwmh5"]
 
-[ext_resource type="Script" uid="uid://cf62q5f5aa0pn" path="res://scenes/npc_wander.gd" id="1_xyiv3"]
+[ext_resource type="Script" uid="uid://cf62q5f5aa0pn" path="res://scripts/npc_wander.gd" id="1_xyiv3"]
 [ext_resource type="Texture2D" uid="uid://crnqm5pqmfohp" path="res://Small-8-Direction-Characters_by_AxulArt.png" id="2_2huc1"]
 
 [sub_resource type="Animation" id="Animation_kbped"]

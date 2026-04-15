@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bog0jhspvyhj8"
-path="res://.godot/imported/sunflower .png-1dc0b50b0094042eb85e684c550ffe71.ctex"
+uid="uid://cu2sdqipkfytn"
+path="res://.godot/imported/Foam.png-b673dbd8d6d525f47734b512a0771586.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/graphics/animated/sunflower .png"
-dest_files=["res://.godot/imported/sunflower .png-1dc0b50b0094042eb85e684c550ffe71.ctex"]
+source_file="res://assets/graphics/used/animated/Foam.png"
+dest_files=["res://.godot/imported/Foam.png-b673dbd8d6d525f47734b512a0771586.ctex"]
 
 [params]
 

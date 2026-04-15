@@ -1,7 +1,7 @@
 keys,it,en
-NUOVA PARTITA, Nuova Partita, New Game
-CARICA PARTITA, Carica Partita, Load Game
-IMPOSTAZIONI, Impostazioni, Settings
+NUOVA_PARTITA, Nuova Partita, New Game
+CARICA_PARTITA, Carica Partita, Load Game
+IMPOSTAZIONI_, Impostazioni, Settings
 ESCI, Esci, Quit
 RISPONDI_CORRETTAMENTE_PER_RICEVERE, Rispondi correttamente per ricevere 10Xp!!, Answer correctly to get 10Xp!!
 CHIUDI, Chiudi, Close
@@ -16,3 +16,4 @@ VOLARE_BLOCCATO,🐦 Volare (bloccato 🔒),🐦 Fly (locked 🔒)
 ESPERIENZA, Esperienza, Experience
 LIVELLO_RAGGIUNTO, ⭐ Livello raggiunto!, ⭐ Level reached!
 XP_MONETE, +10 XP   +10 Monete, +10 XP   +10 Coins
+SALVA_ESCI, Salva e esci, Save and esc

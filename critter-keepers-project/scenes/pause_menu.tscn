@@ -32,15 +32,16 @@ offset_bottom = 127.0
 
 [node name="BtnSaveAndEsc" type="Button" parent="PanelMenu/VBoxContainer" unique_id=1430568152]
 layout_mode = 2
-text = "Save and esc"
+disabled = true
+text = "SALVA_ESCI"
 
 [node name="BtnEsc" type="Button" parent="PanelMenu/VBoxContainer" unique_id=1724840826]
 layout_mode = 2
-text = "Esc"
+text = "ESCI"
 
 [node name="BtnSettings" type="Button" parent="PanelMenu/VBoxContainer" unique_id=36415679]
 layout_mode = 2
-text = "Settings"
+text = "IMPOSTAZIONI_"
 
 [node name="PanelSettings" type="Panel" parent="." unique_id=1819461962]
 offset_left = 565.0
@@ -67,4 +68,4 @@ text = "🇬🇧 English"
 
 [node name="BtnClose" type="Button" parent="PanelSettings/VBoxContainer" unique_id=215331237]
 layout_mode = 2
-text = "Close"
+text = "CHIUDI"
