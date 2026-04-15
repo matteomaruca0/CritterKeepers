@@ -27,6 +27,7 @@
 [ext_resource type="PackedScene" uid="uid://btf2b5mfatdhd" path="res://scenes/npc_guru.tscn" id="25_rbyf4"]
 [ext_resource type="PackedScene" uid="uid://knojof368yft" path="res://scenes/deer.tscn" id="26_634t6"]
 [ext_resource type="PackedScene" uid="uid://bvs76j4bgh4pu" path="res://scenes/dialogo_ui.tscn" id="27_gke1n"]
+[ext_resource type="PackedScene" uid="uid://c8f5171s10ajs" path="res://scenes/progressBar.tscn" id="28_7xidg"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0cso3"]
 texture = ExtResource("2_rbyf4")
@@ -2684,3 +2685,5 @@ position = Vector2(-920, -196)
 [node name="DialogoUI" parent="UI" unique_id=1421490862 instance=ExtResource("27_gke1n")]
 
 [node name="PierRock" parent="." unique_id=1892733207 instance=ExtResource("22_hj3kd")]
+
+[node name="HUD" parent="." unique_id=254681411 instance=ExtResource("28_7xidg")]
