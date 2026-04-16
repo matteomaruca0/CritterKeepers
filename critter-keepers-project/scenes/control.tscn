@@ -286,8 +286,7 @@ text = "CARICA_PARTITA"
 [node name="Settings" type="Button" parent="Main Menu/VBoxContainer" unique_id=1915071577]
 auto_translate_mode = 1
 layout_mode = 2
-text = "IMPOSTAZIONI_
-"
+text = "IMPOSTAZIONI"
 
 [node name="Quit" type="Button" parent="Main Menu/VBoxContainer" unique_id=1470031056]
 layout_mode = 2

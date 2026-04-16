@@ -250,5 +250,6 @@ tree_root = SubResource("AnimationNodeStateMachine_u0gea")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1397214403]
 shape = SubResource("CircleShape2D_u0gea")
 
-[node name="Camera2D" type="Camera2D" parent="." unique_id=572256506]
-zoom = Vector2(3, 3)
+[node name="Camera2D" type="Camera2D" parent="." unique_id=488580231]
+zoom = Vector2(2, 2)
+position_smoothing_enabled = true

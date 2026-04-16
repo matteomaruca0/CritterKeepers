@@ -41,7 +41,7 @@ text = "ESCI"
 
 [node name="BtnSettings" type="Button" parent="PanelMenu/VBoxContainer" unique_id=36415679]
 layout_mode = 2
-text = "IMPOSTAZIONI_"
+text = "IMPOSTAZIONI"
 
 [node name="PanelSettings" type="Panel" parent="." unique_id=1819461962]
 offset_left = 565.0

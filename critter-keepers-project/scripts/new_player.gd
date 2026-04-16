@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
-@export var speed_terra := 200.0
-@export var speed_nuoto := 140.0
+@export var speed_terra := 100.0
+@export var speed_nuoto := 80.0
 @export var speed_volo := 240.0
 
 @onready var animation_player = $AnimationPlayer
