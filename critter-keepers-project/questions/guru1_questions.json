@@ -1,79 +1,79 @@
 {
   "questions": [
-    {
-      "id": "q_tempFor_1",
-      "category": "habitat_temperateForest",
-      "question": "Which temperate forest mammal is threatened by habitat loss and human development but is not currently endangered?",
-      "options": {
-        "A": "Black bear",
-        "B": "Red fox",
-        "C": "Eastern box turtle",
-        "D": "Gray wolf"
-      },
-      "correct_answer": "A",
-      "difficulty": "Easy",
-      "correct_feedback": "Black bears lose habitat due to urban expansion but populations remain stable in many regions.",
-      "source": "https://www.nationalgeographic.com/animals/mammals/facts/american-black-bear"
-    },
-    {
-      "id": "q_tempFor_2",
-      "category": "habitat_temperateForest",
-      "question": "Which temperate forest reptile is considered vulnerable due to habitat fragmentation and road mortality?",
-      "options": {
-        "A": "Eastern box turtle",
-        "B": "Black bear",
-        "C": "Red fox",
-        "D": "White tailed deer"
-      },
-      "correct_answer": "A",
-      "difficulty": "Easy",
-      "correct_feedback": "Eastern box turtles are slow moving and often killed by cars while crossing roads.",
-      "source": "https://www.iucnredlist.org/species/21641/97292798"
-    },
-    {
-      "id": "q_tempFor_3",
-      "category": "habitat_temperateForest",
-      "question": "Which adaptable forest predator is affected by habitat loss but can survive near human environments?",
-      "options": {
-        "A": "Red fox",
-        "B": "Black bear",
-        "C": "Eastern box turtle",
-        "D": "Bobcat"
-      },
-      "correct_answer": "A",
-      "difficulty": "Easy",
-      "correct_feedback": "Red foxes can live near cities but still face threats from habitat changes and human conflict.",
-      "source": "https://www.nationalgeographic.com/animals/mammals/facts/red-fox"
-    },
-    {
-      "id": "q_tempFor_4",
-      "category": "habitat_temperateForest",
-      "question": "What is a major threat to Eastern box turtle populations?",
-      "options": {
-        "A": "Road mortality and habitat loss",
-        "B": "Cold temperatures",
-        "C": "Ocean pollution",
-        "D": "Volcanic activity"
-      },
-      "correct_answer": "A",
-      "difficulty": "Easy",
-      "correct_feedback": "Many turtles are killed by vehicles and lose habitat due to development.",
-      "source": "https://www.iucnredlist.org/species/21641/97292798"
-    },
-    {
-      "id": "q_tempFor_5",
-      "category": "habitat_temperateForest",
-      "question": "Why are black bears increasingly coming into contact with humans?",
-      "options": {
-        "A": "Habitat loss and search for food",
-        "B": "Increased predators",
-        "C": "Colder temperatures",
-        "D": "Loss of fur"
-      },
-      "correct_answer": "A",
-      "difficulty": "Medium",
-      "correct_feedback": "As forests shrink bears search for food in human areas leading to conflict.",
-      "source": "https://www.nps.gov/subjects/bears/black-bears.htm"
-    }
+	{
+	  "id": "q_tempFor_1",
+	  "category": "habitat_temperateForest",
+	  "question": "Which temperate forest mammal is threatened by habitat loss and human development but is not currently endangered?",
+	  "options": {
+		"A": "Black bear",
+		"B": "Red fox",
+		"C": "Eastern box turtle",
+		"D": "Gray wolf"
+	  },
+	  "correct_answer": "A",
+	  "difficulty": "Easy",
+	  "correct_feedback": "Black bears lose habitat due to urban expansion but populations remain stable in many regions.",
+	  "source": "https://www.nationalgeographic.com/animals/mammals/facts/american-black-bear"
+	},
+	{
+	  "id": "q_tempFor_2",
+	  "category": "habitat_temperateForest",
+	  "question": "Which temperate forest reptile is considered vulnerable due to habitat fragmentation and road mortality?",
+	  "options": {
+		"A": "Eastern box turtle",
+		"B": "Black bear",
+		"C": "Red fox",
+		"D": "White tailed deer"
+	  },
+	  "correct_answer": "A",
+	  "difficulty": "Easy",
+	  "correct_feedback": "Eastern box turtles are slow moving and often killed by cars while crossing roads.",
+	  "source": "https://www.iucnredlist.org/species/21641/97292798"
+	},
+	{
+	  "id": "q_tempFor_3",
+	  "category": "habitat_temperateForest",
+	  "question": "Which adaptable forest predator is affected by habitat loss but can survive near human environments?",
+	  "options": {
+		"A": "Red fox",
+		"B": "Black bear",
+		"C": "Eastern box turtle",
+		"D": "Bobcat"
+	  },
+	  "correct_answer": "A",
+	  "difficulty": "Easy",
+	  "correct_feedback": "Red foxes can live near cities but still face threats from habitat changes and human conflict.",
+	  "source": "https://www.nationalgeographic.com/animals/mammals/facts/red-fox"
+	},
+	{
+	  "id": "q_tempFor_4",
+	  "category": "habitat_temperateForest",
+	  "question": "What is a major threat to Eastern box turtle populations?",
+	  "options": {
+		"A": "Road mortality and habitat loss",
+		"B": "Cold temperatures",
+		"C": "Ocean pollution",
+		"D": "Volcanic activity"
+	  },
+	  "correct_answer": "A",
+	  "difficulty": "Easy",
+	  "correct_feedback": "Many turtles are killed by vehicles and lose habitat due to development.",
+	  "source": "https://www.iucnredlist.org/species/21641/97292798"
+	},
+	{
+	  "id": "q_tempFor_5",
+	  "category": "habitat_temperateForest",
+	  "question": "Why are black bears increasingly coming into contact with humans?",
+	  "options": {
+		"A": "Habitat loss and search for food",
+		"B": "Increased predators",
+		"C": "Colder temperatures",
+		"D": "Loss of fur"
+	  },
+	  "correct_answer": "A",
+	  "difficulty": "Medium",
+	  "correct_feedback": "As forests shrink bears search for food in human areas leading to conflict.",
+	  "source": "https://www.nps.gov/subjects/bears/black-bears.htm"
+	}
   ]
 }

@@ -1,79 +1,79 @@
 {
   "questions": [
-    {
-      "id": "q_tempFor_6",
-      "category": "habitat_temperateForest",
-      "question": "How does habitat fragmentation affect red fox populations?",
-      "options": {
-        "A": "It reduces territory and food access",
-        "B": "It increases habitat size",
-        "C": "It eliminates predators",
-        "D": "It improves hunting success"
-      },
-      "correct_answer": "A",
-      "difficulty": "Medium",
-      "correct_feedback": "Fragmented habitats limit resources and increase competition.",
-      "source": "https://www.nationalgeographic.com/animals/mammals/facts/red-fox"
-    },
-    {
-      "id": "q_tempFor_7",
-      "category": "habitat_temperateForest",
-      "question": "Which species is most at risk due to slow movement and long lifespan?",
-      "options": {
-        "A": "Eastern box turtle",
-        "B": "Black bear",
-        "C": "Red fox",
-        "D": "Raccoon"
-      },
-      "correct_answer": "A",
-      "difficulty": "Medium",
-      "correct_feedback": "Slow movement and long lifespan make it hard for turtle populations to recover quickly.",
-      "source": "https://www.iucnredlist.org/species/21641/97292798"
-    },
-    {
-      "id": "q_tempFor_8",
-      "category": "habitat_temperateForest",
-      "question": "Which temperate forest species benefits from conservation laws that protect large habitats?",
-      "options": {
-        "A": "Black bear",
-        "B": "Red fox",
-        "C": "Eastern box turtle",
-        "D": "Squirrel"
-      },
-      "correct_answer": "A",
-      "difficulty": "Medium",
-      "correct_feedback": "Protected forests help maintain stable bear populations.",
-      "source": "https://www.nps.gov/subjects/bears/black-bears.htm"
-    },
-    {
-      "id": "q_tempFor_9",
-      "category": "habitat_temperateForest",
-      "question": "Which threat affects all three species black bear red fox and eastern box turtle?",
-      "options": {
-        "A": "Habitat loss and human expansion",
-        "B": "Ocean acidification",
-        "C": "Glacial melting",
-        "D": "Desertification"
-      },
-      "correct_answer": "A",
-      "difficulty": "Easy",
-      "correct_feedback": "Human development reduces forest habitats for all these species.",
-      "source": "https://www.un.org/en/climatechange/what-is-climate-change"
-    },
-    {
-      "id": "q_tempFor_10",
-      "category": "habitat_temperateForest",
-      "question": "Why are Eastern box turtles especially vulnerable to population decline?",
-      "options": {
-        "A": "Low reproduction rates and high mortality",
-        "B": "Fast reproduction",
-        "C": "High mobility",
-        "D": "Short lifespan"
-      },
-      "correct_answer": "A",
-      "difficulty": "Hard",
-      "correct_feedback": "They reproduce slowly so populations cannot recover quickly from losses.",
-      "source": "https://www.iucnredlist.org/species/21641/97292798"
-    }
+	{
+	  "id": "q_tempFor_6",
+	  "category": "habitat_temperateForest",
+	  "question": "How does habitat fragmentation affect red fox populations?",
+	  "options": {
+		"A": "It reduces territory and food access",
+		"B": "It increases habitat size",
+		"C": "It eliminates predators",
+		"D": "It improves hunting success"
+	  },
+	  "correct_answer": "A",
+	  "difficulty": "Medium",
+	  "correct_feedback": "Fragmented habitats limit resources and increase competition.",
+	  "source": "https://www.nationalgeographic.com/animals/mammals/facts/red-fox"
+	},
+	{
+	  "id": "q_tempFor_7",
+	  "category": "habitat_temperateForest",
+	  "question": "Which species is most at risk due to slow movement and long lifespan?",
+	  "options": {
+		"A": "Eastern box turtle",
+		"B": "Black bear",
+		"C": "Red fox",
+		"D": "Raccoon"
+	  },
+	  "correct_answer": "A",
+	  "difficulty": "Medium",
+	  "correct_feedback": "Slow movement and long lifespan make it hard for turtle populations to recover quickly.",
+	  "source": "https://www.iucnredlist.org/species/21641/97292798"
+	},
+	{
+	  "id": "q_tempFor_8",
+	  "category": "habitat_temperateForest",
+	  "question": "Which temperate forest species benefits from conservation laws that protect large habitats?",
+	  "options": {
+		"A": "Black bear",
+		"B": "Red fox",
+		"C": "Eastern box turtle",
+		"D": "Squirrel"
+	  },
+	  "correct_answer": "A",
+	  "difficulty": "Medium",
+	  "correct_feedback": "Protected forests help maintain stable bear populations.",
+	  "source": "https://www.nps.gov/subjects/bears/black-bears.htm"
+	},
+	{
+	  "id": "q_tempFor_9",
+	  "category": "habitat_temperateForest",
+	  "question": "Which threat affects all three species black bear red fox and eastern box turtle?",
+	  "options": {
+		"A": "Habitat loss and human expansion",
+		"B": "Ocean acidification",
+		"C": "Glacial melting",
+		"D": "Desertification"
+	  },
+	  "correct_answer": "A",
+	  "difficulty": "Easy",
+	  "correct_feedback": "Human development reduces forest habitats for all these species.",
+	  "source": "https://www.un.org/en/climatechange/what-is-climate-change"
+	},
+	{
+	  "id": "q_tempFor_10",
+	  "category": "habitat_temperateForest",
+	  "question": "Why are Eastern box turtles especially vulnerable to population decline?",
+	  "options": {
+		"A": "Low reproduction rates and high mortality",
+		"B": "Fast reproduction",
+		"C": "High mobility",
+		"D": "Short lifespan"
+	  },
+	  "correct_answer": "A",
+	  "difficulty": "Hard",
+	  "correct_feedback": "They reproduce slowly so populations cannot recover quickly from losses.",
+	  "source": "https://www.iucnredlist.org/species/21641/97292798"
+	}
   ]
 }
