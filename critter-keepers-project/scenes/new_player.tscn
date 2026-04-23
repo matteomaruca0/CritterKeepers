@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bsyr2kfvu6cr0"]
 
 [ext_resource type="Texture2D" uid="uid://crnqm5pqmfohp" path="res://Small-8-Direction-Characters_by_AxulArt.png" id="1_2nfax"]
-[ext_resource type="Script" uid="uid://uptlxug6q64w" path="res://scenes/new_player.gd" id="1_u0gea"]
+[ext_resource type="Script" uid="uid://uptlxug6q64w" path="res://scripts/new_player.gd" id="1_u0gea"]
 
 [sub_resource type="Animation" id="Animation_kbped"]
 length = 0.001
@@ -250,5 +250,5 @@ tree_root = SubResource("AnimationNodeStateMachine_u0gea")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1397214403]
 shape = SubResource("CircleShape2D_u0gea")
 
-[node name="Camera2D" type="Camera2D" parent="." unique_id=572256506]
+[node name="Camera2D" type="Camera2D" parent="." unique_id=572256506 groups=["player"]]
 zoom = Vector2(3, 3)

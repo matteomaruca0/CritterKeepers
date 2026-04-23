@@ -28,6 +28,7 @@
 [ext_resource type="PackedScene" uid="uid://knojof368yft" path="res://scenes/deer.tscn" id="26_634t6"]
 [ext_resource type="PackedScene" uid="uid://bvs76j4bgh4pu" path="res://scenes/dialogo_ui.tscn" id="27_gke1n"]
 [ext_resource type="PackedScene" uid="uid://c8f5171s10ajs" path="res://scenes/progressBar.tscn" id="28_7xidg"]
+[ext_resource type="PackedScene" uid="uid://cb587j8n81ctu" path="res://scenes/bear.tscn" id="29_3gvmb"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0cso3"]
 texture = ExtResource("2_rbyf4")
@@ -2668,10 +2669,10 @@ position = Vector2(501, -773)
 position = Vector2(-459, -196)
 
 [node name="NPCguru" parent="." unique_id=877199368 instance=ExtResource("25_rbyf4")]
-position = Vector2(-420, -196)
+position = Vector2(-468.00003, -231)
 
 [node name="NPCguru2" parent="." unique_id=1151683968 instance=ExtResource("25_rbyf4")]
-position = Vector2(-1480, -196)
+position = Vector2(-1430, -162)
 guru_id = 2
 
 [node name="deer" parent="." unique_id=911132381 instance=ExtResource("26_634t6")]
@@ -2687,3 +2688,9 @@ position = Vector2(-920, -196)
 [node name="PierRock" parent="." unique_id=1892733207 instance=ExtResource("22_hj3kd")]
 
 [node name="HUD" parent="." unique_id=254681411 instance=ExtResource("28_7xidg")]
+
+[node name="bear1" parent="." unique_id=567333202 instance=ExtResource("29_3gvmb")]
+position = Vector2(32, -16)
+
+[node name="bear2" parent="." unique_id=154921773 instance=ExtResource("29_3gvmb")]
+position = Vector2(44, 36)
