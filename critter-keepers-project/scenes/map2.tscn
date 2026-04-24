@@ -2667,10 +2667,10 @@ position = Vector2(501, -773)
 [node name="New_Player" parent="." unique_id=2022348183 instance=ExtResource("24_ntdhj")]
 position = Vector2(-459, -196)
 
-[node name="NPCguru" parent="." unique_id=877199368 instance=ExtResource("25_rbyf4")]
+[node name="NPCguru" parent="." unique_id=877199368 groups=["habitat_temperateForest"] instance=ExtResource("25_rbyf4")]
 position = Vector2(-420, -196)
 
-[node name="NPCguru2" parent="." unique_id=1151683968 instance=ExtResource("25_rbyf4")]
+[node name="NPCguru2" parent="." unique_id=1151683968 groups=["habitat_temperateForest"] instance=ExtResource("25_rbyf4")]
 position = Vector2(-1480, -196)
 guru_id = 2
 

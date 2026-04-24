@@ -1,0 +1,1173 @@
+{
+  "habitat_temperateForest": [
+	{
+	  "id": 0,
+	  "question": "Quale mammifero della foresta temperata è minacciato dalla perdita di habitat e dallo sviluppo umano ma non è attualmente in via di estinzione?",
+	  "options": {
+		"A": "Volpe rossa",
+		"B": "Orso nero",
+		"C": "Lupo grigio",
+		"D": "Tartaruga scatola orientale"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Corretto! Gli orsi neri perdono l'habitat a causa dell'espansione urbana, ma le popolazioni rimangono stabili in molte regioni.",
+	  "incorrect_feedback": "Sbagliato! Gli orsi neri perdono l'habitat a causa dell'espansione urbana, ma le popolazioni rimangono stabili in molte regioni."
+	},
+	{
+	  "id": 1,
+	  "question": "Quale rettile della foresta temperata è considerato vulnerabile a causa della frammentazione dell'habitat e della mortalità stradale?",
+	  "options": {
+		"A": "Cervo dalla coda bianca",
+		"B": "Volpe rossa",
+		"C": "Tartaruga scatola orientale",
+		"D": "Orso nero"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Corretto! Le tartarughe scatola orientali sono lente e spesso vengono uccise dalle auto mentre attraversano le strade.",
+	  "incorrect_feedback": "Sbagliato! Le tartarughe scatola orientali sono lente e spesso vengono uccise dalle auto mentre attraversano le strade."
+	},
+	{
+	  "id": 2,
+	  "question": "Quale predatore adattabile della foresta è colpito dalla perdita di habitat ma può sopravvivere vicino agli ambienti umani?",
+	  "options": {
+		"A": "Tartaruga scatola orientale",
+		"B": "Orso nero",
+		"C": "Lince rossa",
+		"D": "Volpe rossa"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Corretto! Le volpi rosse possono vivere vicino alle città ma affrontano comunque minacce derivanti dai cambiamenti dell'habitat e dai conflitti umani.",
+	  "incorrect_feedback": "Sbagliato! Le volpi rosse possono vivere vicino alle città ma affrontano comunque minacce derivanti dai cambiamenti dell'habitat e dai conflitti umani."
+	},
+	{
+	  "id": 3,
+	  "question": "Qual è una delle principali minacce per le popolazioni di tartaruga scatola orientale?",
+	  "options": {
+		"A": "Inquinamento oceanico",
+		"B": "Mortalità stradale e perdita di habitat",
+		"C": "Temperature fredde",
+		"D": "Attività vulcanica"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Corretto! Molte tartarughe vengono uccise dai veicoli e perdono il loro habitat a causa dello sviluppo.",
+	  "incorrect_feedback": "Sbagliato! Molte tartarughe vengono uccise dai veicoli e perdono il loro habitat a causa dello sviluppo."
+	},
+	{
+	  "id": 4,
+	  "question": "Perché gli orsi neri entrano sempre più in contatto con gli umani?",
+	  "options": {
+		"A": "Aumento dei predatori",
+		"B": "Temperature più fredde",
+		"C": "Perdita di habitat e ricerca di cibo",
+		"D": "Perdita di pelo"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Corretto! Man mano che le foreste si restringono, gli orsi cercano cibo nelle aree umane portando a conflitti.",
+	  "incorrect_feedback": "Sbagliato! Man mano che le foreste si restringono, gli orsi cercano cibo nelle aree umane portando a conflitti."
+	},
+	{
+	  "id": 5,
+	  "question": "In che modo la frammentazione dell'habitat influenza le popolazioni di volpe rossa?",
+	  "options": {
+		"A": "Riduce il territorio e l'accesso al cibo",
+		"B": "Aumenta le dimensioni dell'habitat",
+		"C": "Elimina i predatori",
+		"D": "Migliora il successo della caccia"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Corretto! Gli habitat frammentati limitano le risorse e aumentano la competizione.",
+	  "incorrect_feedback": "Sbagliato! Gli habitat frammentati limitano le risorse e aumentano la competizione."
+	},
+	{
+	  "id": 6,
+	  "question": "Quale specie è più a rischio a causa del movimento lento e della lunga durata di vita?",
+	  "options": {
+		"A": "Procione",
+		"B": "Orso nero",
+		"C": "Volpe rossa",
+		"D": "Tartaruga scatola orientale"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Corretto! Il movimento lento e la lunga durata di vita rendono difficile per le popolazioni di tartarughe riprendersi rapidamente.",
+	  "incorrect_feedback": "Sbagliato! Il movimento lento e la lunga durata di vita rendono difficile per le popolazioni di tartarughe riprendersi rapidamente."
+	},
+	{
+	  "id": 7,
+	  "question": "Quale specie della foresta temperata beneficia delle leggi di conservazione che proteggono i grandi habitat?",
+	  "options": {
+		"A": "Volpe rossa",
+		"B": "Orso nero",
+		"C": "Scoiattolo",
+		"D": "Tartaruga scatola orientale"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Corretto! Le foreste protette aiutano a mantenere stabili le popolazioni di orsi.",
+	  "incorrect_feedback": "Sbagliato! Le foreste protette aiutano a mantenere stabili le popolazioni di orsi."
+	},
+	{
+	  "id": 8,
+	  "question": "Quale minaccia colpisce tutte e tre le specie: orso nero, volpe rossa e tartaruga scatola orientale?",
+	  "options": {
+		"A": "Acidificazione degli oceani",
+		"B": "Desertificazione",
+		"C": "Perdita di habitat ed espansione umana",
+		"D": "Scioglimento dei ghiacciai"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Corretto! Lo sviluppo umano riduce gli habitat forestali per tutte queste specie.",
+	  "incorrect_feedback": "Sbagliato! Lo sviluppo umano riduce gli habitat forestali per tutte queste specie."
+	},
+	{
+	  "id": 9,
+	  "question": "Perché le tartarughe scatola orientali sono particolarmente vulnerabili al declino della popolazione?",
+	  "options": {
+		"A": "Bassi tassi di riproduzione e alta mortalità",
+		"B": "Riproduzione veloce",
+		"C": "Alta mobilità",
+		"D": "Breve durata di vita"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Corretto! Si riproducono lentamente, quindi le popolazioni non possono riprendersi rapidamente dalle perdite.",
+	  "incorrect_feedback": "Sbagliato! Si riproducono lentamente, quindi le popolazioni non possono riprendersi rapidamente dalle perdite."
+	}
+  ],
+  "habitat_Savanah": [
+	{
+	  "id": 0,
+	  "question": "Perché gli elefanti della savana africana sono in via di estinzione?",
+	  "options": {
+		"A": "Troppa pioggia",
+		"B": "Predatori",
+		"C": "Bracconaggio e perdita di habitat",
+		"D": "Riscaldamento globale"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Corretto! Gli elefanti sono in via di estinzione soprattutto perché le persone li uccidono per l'avorio e perché stanno perdendo i loro spazi vitali.",
+	  "incorrect_feedback": "Sbagliato! Gli elefanti sono in via di estinzione soprattutto perché le persone li uccidono per l'avorio e perché stanno perdendo i loro spazi vitali."
+	},
+	{
+	  "id": 1,
+	  "question": "Qual è un modo in cui le persone possono aiutare a proteggere gli elefanti?",
+	  "options": {
+		"A": "Tenere gli elefanti come animali domestici",
+		"B": "Non comprare mai prodotti in avorio",
+		"C": "Scacciare gli elefanti",
+		"D": "Dare da mangiare agli elefanti selvatici"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Corretto! Acquistare avorio contribuisce a sostenere il bracconaggio, quindi rifiutarsi di comprarlo aiuta a proteggere gli elefanti.",
+	  "incorrect_feedback": "Sbagliato! Acquistare avorio contribuisce a sostenere il bracconaggio, quindi rifiutarsi di comprarlo aiuta a proteggere gli elefanti."
+	},
+	{
+	  "id": 2,
+	  "question": "Perché le orecchie di un elefante africano sono così grandi?",
+	  "options": {
+		"A": "Immagazzinano acqua",
+		"B": "Lo aiutano a volare",
+		"C": "Aiutano a raffreddare il corpo",
+		"D": "Rendono la proboscide più forte"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Corretto! Le grandi orecchie aiutano gli elefanti a rinfrescarsi permettendo al calore corporeo di fuoriuscire.",
+	  "incorrect_feedback": "Sbagliato! Le grandi orecchie aiutano gli elefanti a rinfrescarsi permettendo al calore corporeo di fuoriuscire."
+	},
+	{
+	  "id": 3,
+	  "question": "Perché i rinoceronti neri sono in grave pericolo di estinzione?",
+	  "options": {
+		"A": "Bracconaggio per le loro corna",
+		"B": "Mancanza di pozze di fango",
+		"C": "Troppi predatori naturali",
+		"D": "Non c'è abbastanza erba da mangiare"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Corretto! I rinoceronti neri sono stati pesantemente cacciati di frodo perché le persone vendono illegalmente i loro corni.",
+	  "incorrect_feedback": "Sbagliato! I rinoceronti neri sono stati pesantemente cacciati di frodo perché le persone vendono illegalmente i loro corni."
+	},
+	{
+	  "id": 4,
+	  "question": "Di cosa è fatto principalmente il corno di un rinoceronte?",
+	  "options": {
+		"A": "Osso",
+		"B": "Calcio",
+		"C": "Cartilagine",
+		"D": "Cheratina"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Corretto! Il corno di rinoceronte è fatto di cheratina, lo stesso materiale che si trova nei capelli e nelle unghie umane.",
+	  "incorrect_feedback": "Sbagliato! Il corno di rinoceronte è fatto di cheratina, lo stesso materiale che si trova nei capelli e nelle unghie umane."
+	},
+	{
+	  "id": 5,
+	  "question": "Qual è un modo in cui le persone possono aiutare a proteggere i rinoceronti?",
+	  "options": {
+		"A": "Tenere i rinoceronti solo in parchi recintati",
+		"B": "Sostenere gli sforzi contro il bracconaggio",
+		"C": "Impedire ai turisti di vedere i rinoceronti",
+		"D": "Allevare più rinoceronti negli zoo"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Corretto! Sostenere il lavoro contro il bracconaggio aiuta a proteggere i rinoceronti dall'essere uccisi illegalmente.",
+	  "incorrect_feedback": "Sbagliato! Sostenere il lavoro contro il bracconaggio aiuta a proteggere i rinoceronti dall'essere uccisi illegalmente."
+	},
+	{
+	  "id": 6,
+	  "question": "Perché le linee nere sotto gli occhi di un ghepardo sono utili?",
+	  "options": {
+		"A": "Proteggono i loro occhi dalla polvere",
+		"B": "Aiutano i ghepardi a mimetizzarsi nell'erba",
+		"C": "Aiutano a ridurre il riverbero del sole",
+		"D": "Aiutano gli altri ghepardi a riconoscerli"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Corretto! I segni neri a forma di lacrima aiutano a ridurre il riverbero della luce solare in modo che i ghepardi possano concentrarsi meglio sulla preda.",
+	  "incorrect_feedback": "Sbagliato! I segni neri a forma di lacrima aiutano a ridurre il riverbero della luce solare in modo che i ghepardi possano concentrarsi meglio sulla preda."
+	},
+	{
+	  "id": 7,
+	  "question": "Perché il commercio illegale di animali domestici è dannoso per le popolazioni di ghepardi?",
+	  "options": {
+		"A": "I ghepardi diventano più lenti col tempo",
+		"B": "I cuccioli vengono prelevati dalla natura, riducendo la sopravvivenza in natura",
+		"C": "I ghepardi adulti smettono di insegnare ai cuccioli a cacciare",
+		"D": "Fa sì che i ghepardi perdano immediatamente i loro istinti predatori"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Corretto! I cuccioli prelevati dalla natura per il commercio di animali domestici non rimangono nella loro popolazione naturale, il che danneggia il numero di ghepardi.",
+	  "incorrect_feedback": "Sbagliato! I cuccioli prelevati dalla natura per il commercio di animali domestici non rimangono nella loro popolazione naturale, il che danneggia il numero di ghepardi."
+	},
+	{
+	  "id": 8,
+	  "question": "Qual è un modo in cui le persone possono aiutare i ghepardi?",
+	  "options": {
+		"A": "Proteggere le terre selvagge e l'habitat",
+		"B": "Spostare i ghepardi in zoo protetti",
+		"C": "Allevare più ghepardi in cattività",
+		"D": "Fornire ai ghepardi aree di alimentazione monitorate"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Corretto! I ghepardi hanno bisogno di grandi aree di habitat per sopravvivere, quindi proteggere la terra li aiuta.",
+	  "incorrect_feedback": "Sbagliato! I ghepardi hanno bisogno di grandi aree di habitat per sopravvivere, quindi proteggere la terra li aiuta."
+	},
+	{
+	  "id": 9,
+	  "question": "Perché i ghepardi hanno bisogno di grandi praterie aperte?",
+	  "options": {
+		"A": "La loro pelliccia cambia colore fuori dagli habitat aperti",
+		"B": "Hanno bisogno di terreni pianeggianti per costruire tane",
+		"C": "Mangiano solo piante che crescono nelle praterie",
+		"D": "Hanno bisogno di spazio per inseguire le prede ad alta velocità"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Corretto! I ghepardi fanno affidamento sulla velocità per catturare le prede, quindi hanno bisogno di ampi spazi aperti per correre e girare rapidamente.",
+	  "incorrect_feedback": "Sbagliato! I ghepardi fanno affidamento sulla velocità per catturare le prede, quindi hanno bisogno di ampi spazi aperti per correre e girare rapidamente."
+	}
+  ],
+  "habitat_AlpineLakes": [
+	{
+	  "id": 0,
+	  "question": "Quale mammifero alpino è noto per la sua capacità di arrampicarsi su ripide scogliere rocciose e un tempo era quasi estinto in Europa?",
+	  "options": {
+		"A": "Marmotta",
+		"B": "Tritone alpestre",
+		"C": "Stambecco alpino",
+		"D": "Aquila reale"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Corretto! Le popolazioni di stambecco alpino sono diminuite a causa dell'eccessiva caccia, ma si sono riprese attraverso gli sforzi di conservazione.",
+	  "incorrect_feedback": "Sbagliato! Le popolazioni di stambecco alpino sono diminuite a causa dell'eccessiva caccia, ma si sono riprese attraverso gli sforzi di conservazione."
+	},
+	{
+	  "id": 1,
+	  "question": "Quale roditore alpino va in letargo per lunghi periodi ed è sensibile ai cambiamenti climatici?",
+	  "options": {
+		"A": "Marmotta",
+		"B": "Aquila reale",
+		"C": "Stambecco alpino",
+		"D": "Tritone alpestre"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Corretto! Le marmotte si affidano a lunghi inverni per il letargo e l'aumento delle temperature sconvolge il loro ciclo vitale.",
+	  "incorrect_feedback": "Sbagliato! Le marmotte si affidano a lunghi inverni per il letargo e l'aumento delle temperature sconvolge il loro ciclo vitale."
+	},
+	{
+	  "id": 2,
+	  "question": "Quale rapace delle regioni alpine è minacciato dalla perdita di habitat e dal disturbo umano?",
+	  "options": {
+		"A": "Marmotta",
+		"B": "Aquila reale",
+		"C": "Tritone alpestre",
+		"D": "Stambecco alpino"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Corretto! Le aquile reali sono colpite dall'alterazione dell'habitat e dalla ridotta disponibilità di prede.",
+	  "incorrect_feedback": "Sbagliato! Le aquile reali sono colpite dall'alterazione dell'habitat e dalla ridotta disponibilità di prede."
+	},
+	{
+	  "id": 3,
+	  "question": "Quale anfibio presente negli ambienti alpini è vulnerabile all'inquinamento dell'acqua e ai cambiamenti dell'habitat?",
+	  "options": {
+		"A": "Aquila reale",
+		"B": "Marmotta",
+		"C": "Stambecco alpino",
+		"D": "Tritone alpestre"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Corretto! I tritoni alpestri dipendono da habitat di acqua dolce pulita che sono facilmente influenzati dall'inquinamento.",
+	  "incorrect_feedback": "Sbagliato! I tritoni alpestri dipendono da habitat di acqua dolce pulita che sono facilmente influenzati dall'inquinamento."
+	},
+	{
+	  "id": 4,
+	  "question": "Qual è stata la principale minaccia storica per le popolazioni di stambecco alpino?",
+	  "options": {
+		"A": "Malattie",
+		"B": "Predatori naturali",
+		"C": "Caccia eccessiva",
+		"D": "Cambiamento climatico"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Corretto! Gli stambecchi alpini venivano cacciati intensamente per carne e corna, il che ne ha quasi causato l'estinzione.",
+	  "incorrect_feedback": "Sbagliato! Gli stambecchi alpini venivano cacciati intensamente per carne e corna, il che ne ha quasi causato l'estinzione."
+	},
+	{
+	  "id": 5,
+	  "question": "In che modo il cambiamento climatico minaccia le popolazioni di marmotte?",
+	  "options": {
+		"A": "Migliora i rifugi",
+		"B": "Interrompe i cicli di letargo",
+		"C": "Riduce i predatori",
+		"D": "Aumenta l'approvvigionamento alimentare"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Corretto! Il riscaldamento delle temperature accorcia i periodi di letargo e influisce sui tassi di sopravvivenza.",
+	  "incorrect_feedback": "Sbagliato! Il riscaldamento delle temperature accorcia i periodi di letargo e influisce sui tassi di sopravvivenza."
+	},
+	{
+	  "id": 6,
+	  "question": "Perché le aquile reali sono vulnerabili alle attività umane?",
+	  "options": {
+		"A": "Troppe prede",
+		"B": "Temperature fredde",
+		"C": "Eccesso di spazio per la nidificazione",
+		"D": "Perdita di habitat e avvelenamento"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Corretto! L'espansione umana e l'avvelenamento riducono le popolazioni di aquile e il successo riproduttivo.",
+	  "incorrect_feedback": "Sbagliato! L'espansione umana e l'avvelenamento riducono le popolazioni di aquile e il successo riproduttivo."
+	},
+	{
+	  "id": 7,
+	  "question": "Quale fattore ambientale è più critico per la sopravvivenza dei tritoni alpestri?",
+	  "options": {
+		"A": "Scogliere rocciose",
+		"B": "Habitat di acqua dolce pulita",
+		"C": "Neve profonda",
+		"D": "Praterie aperte"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Corretto! I tritoni alpestri richiedono stagni e zone umide pulite per la riproduzione e lo sviluppo.",
+	  "incorrect_feedback": "Sbagliato! I tritoni alpestri richiedono stagni e zone umide pulite per la riproduzione e lo sviluppo."
+	},
+	{
+	  "id": 8,
+	  "question": "Il recupero di quale specie alpina è considerato una storia di successo nella conservazione?",
+	  "options": {
+		"A": "Stambecco alpino",
+		"B": "Marmotta",
+		"C": "Aquila reale",
+		"D": "Tritone alpestre"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Corretto! Le leggi di protezione e i programmi di reintroduzione hanno aiutato le popolazioni di stambecco alpino a riprendersi.",
+	  "incorrect_feedback": "Sbagliato! Le leggi di protezione e i programmi di reintroduzione hanno aiutato le popolazioni di stambecco alpino a riprendersi."
+	},
+	{
+	  "id": 9,
+	  "question": "Quale specie alpina è maggiormente colpita dall'aumento delle temperature che riduce la copertura nevosa?",
+	  "options": {
+		"A": "Aquila reale",
+		"B": "Stambecco alpino",
+		"C": "Marmotta",
+		"D": "Tritone alpestre"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Corretto! Le marmotte dipendono dall'isolamento della neve durante il letargo e sono colpite dalla riduzione della copertura nevosa.",
+	  "incorrect_feedback": "Sbagliato! Le marmotte dipendono dall'isolamento della neve durante il letargo e sono colpite dalla riduzione della copertura nevosa."
+	},
+	{
+	  "id": 10,
+	  "question": "Da quale tipo di ecosistema dipendono tutte queste specie alpine?",
+	  "options": {
+		"A": "Aree urbane",
+		"B": "Deserti",
+		"C": "Foreste tropicali",
+		"D": "Ecosistemi montani"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Corretto! Queste specie si affidano ad ambienti montani freddi d'alta quota per sopravvivere.",
+	  "incorrect_feedback": "Sbagliato! Queste specie si affidano ad ambienti montani freddi d'alta quota per sopravvivere."
+	},
+	{
+	  "id": 11,
+	  "question": "Quale minaccia colpisce tutte e quattro le specie alpine: stambecco, marmotta, aquila e tritone?",
+	  "options": {
+		"A": "Terremoti",
+		"B": "Cambiamento climatico e perdita di habitat",
+		"C": "Eruzioni vulcaniche",
+		"D": "Correnti oceaniche"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Corretto! Il cambiamento climatico altera gli habitat e influisce sulla disponibilità di cibo e acqua per tutte queste specie.",
+	  "incorrect_feedback": "Sbagliato! Il cambiamento climatico altera gli habitat e influisce sulla disponibilità di cibo e acqua per tutte queste specie."
+	}
+  ],
+  "habitat_Costal": [
+	{
+	  "id": 0,
+	  "question": "Quali due specie di tartarughe marine sono classificate come in grave pericolo di estinzione, rendendole le più a rischio tra tutte le tartarughe marine?",
+	  "options": {
+		"A": "Tartaruga a dorso piatto e tartaruga verde",
+		"B": "Tartaruga liuto e tartaruga olivacea",
+		"C": "Tartaruga embricata e tartaruga di Kemp",
+		"D": "Tartaruga verde e tartaruga comune"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Corretto! Le tartarughe embricate e le tartarughe di Kemp sono attualmente in maggior pericolo di estinzione.",
+	  "incorrect_feedback": "Sbagliato! Le tartarughe embricate e le tartarughe di Kemp sono attualmente in maggior pericolo di estinzione."
+	},
+	{
+	  "id": 1,
+	  "question": "Approssimativamente quanti piccoli sopravvivono fino all'età adulta?",
+	  "options": {
+		"A": "1 su 100",
+		"B": "1 su 1.000",
+		"C": "1 su 10",
+		"D": "1 su 10.000"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Corretto! La maggior parte si perde a causa dei predatori e delle sfide ambientali nei primi anni di vita.",
+	  "incorrect_feedback": "Sbagliato! La maggior parte si perde a causa dei predatori e delle sfide ambientali nei primi anni di vita."
+	},
+	{
+	  "id": 2,
+	  "question": "Quale specie di tartaruga marina ha la distribuzione globale più ampia e può vivere in acque molto fredde?",
+	  "options": {
+		"A": "Tartaruga verde",
+		"B": "Tartaruga comune",
+		"C": "Tartaruga a dorso piatto",
+		"D": "Tartaruga liuto"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Corretto! Possono sopravvivere in acque fredde fino a 7,5°C e migrare attraverso interi oceani.",
+	  "incorrect_feedback": "Sbagliato! Possono sopravvivere in acque fredde fino a 7,5°C e migrare attraverso interi oceani."
+	},
+	{
+	  "id": 3,
+	  "question": "Quale rettile marino è in via di estinzione in gran parte a causa dell'inquinamento da plastica e delle reti da pesca?",
+	  "options": {
+		"A": "Tartaruga marina",
+		"B": "Delfino",
+		"C": "Balenottera azzurra",
+		"D": "Vaquita"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Corretto! Le tartarughe marine spesso ingeriscono plastica o rimangono impigliate negli attrezzi da pesca, il che porta a lesioni o alla morte.",
+	  "incorrect_feedback": "Sbagliato! Le tartarughe marine spesso ingeriscono plastica o rimangono impigliate negli attrezzi da pesca, il che porta a lesioni o alla morte."
+	},
+	{
+	  "id": 4,
+	  "question": "Quale mammifero marino è attualmente considerato il più a rischio di estinzione al mondo?",
+	  "options": {
+		"A": "Delfino",
+		"B": "Balenottera azzurra",
+		"C": "Vaquita",
+		"D": "Tartaruga marina"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Corretto! La vaquita è in grave pericolo di estinzione con meno di 10 individui rimasti a causa delle reti da pesca illegali.",
+	  "incorrect_feedback": "Sbagliato! La vaquita è in grave pericolo di estinzione con meno di 10 individui rimasti a causa delle reti da pesca illegali."
+	},
+	{
+	  "id": 5,
+	  "question": "Qual è l'animale più grande mai vissuto sulla Terra ed è classificato come in via di estinzione?",
+	  "options": {
+		"A": "Vaquita",
+		"B": "Balenottera azzurra",
+		"C": "Tartaruga marina",
+		"D": "Delfino"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Corretto! Le balenottere azzurre sono state intensamente cacciate e si stanno ancora riprendendo nonostante le protezioni.",
+	  "incorrect_feedback": "Sbagliato! Le balenottere azzurre sono state intensamente cacciate e si stanno ancora riprendendo nonostante le protezioni."
+	},
+	{
+	  "id": 6,
+	  "question": "Quale specie costiera è maggiormente minacciata dalle catture accessorie nelle reti da posta illegali?",
+	  "options": {
+		"A": "Tartaruga marina",
+		"B": "Balenottera azzurra",
+		"C": "Delfino",
+		"D": "Vaquita"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Corretto! Le vaquita vengono spesso catturate e uccise accidentalmente nelle reti da posta utilizzate per la pesca illegale.",
+	  "incorrect_feedback": "Sbagliato! Le vaquita vengono spesso catturate e uccise accidentalmente nelle reti da posta utilizzate per la pesca illegale."
+	},
+	{
+	  "id": 7,
+	  "question": "Qual è la minaccia principale per molte specie di tartarughe marine in tutto il mondo?",
+	  "options": {
+		"A": "Mancanza di luce solare",
+		"B": "Inquinamento da plastica e impigliamento negli attrezzi da pesca",
+		"C": "Predazione da parte di uccelli",
+		"D": "Temperature fredde"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Corretto! I rifiuti umani e gli attrezzi da pesca sono le principali cause di lesioni e morte per le tartarughe marine.",
+	  "incorrect_feedback": "Sbagliato! I rifiuti umani e gli attrezzi da pesca sono le principali cause di lesioni e morte per le tartarughe marine."
+	},
+	{
+	  "id": 8,
+	  "question": "Quale popolazione di delfini è in grave pericolo di estinzione a causa della restrizione dell'habitat e dell'attività umana?",
+	  "options": {
+		"A": "Tursiope",
+		"B": "Delfino comune",
+		"C": "Delfino di Maui",
+		"D": "Stenella longirostre"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Corretto! Il delfino di Maui è uno dei delfini più rari ed è minacciato dalla pesca e dal disturbo dell'habitat.",
+	  "incorrect_feedback": "Sbagliato! Il delfino di Maui è uno dei delfini più rari ed è minacciato dalla pesca e dal disturbo dell'habitat."
+	},
+	{
+	  "id": 9,
+	  "question": "Come influisce l'aumento delle temperature dell'oceano sulle tartarughe marine?",
+	  "options": {
+		"A": "Aumentano la resistenza del guscio",
+		"B": "Riducono la capacità di nuotare",
+		"C": "Eliminano i predatori",
+		"D": "Alterano i rapporti tra i sessi dei piccoli"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Corretto! Le temperature della sabbia più calde producono più piccoli femmine, il che altera l'equilibrio della popolazione.",
+	  "incorrect_feedback": "Sbagliato! Le temperature della sabbia più calde producono più piccoli femmine, il che altera l'equilibrio della popolazione."
+	},
+	{
+	  "id": 10,
+	  "question": "Quale specie in via di estinzione è maggiormente colpita dagli scontri con le navi a causa delle sue grandi dimensioni e del movimento lento?",
+	  "options": {
+		"A": "Delfino",
+		"B": "Tartaruga marina",
+		"C": "Vaquita",
+		"D": "Balenottera azzurra"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Corretto! Le balenottere azzurre sono vulnerabili alle collisioni con le navi che possono causare gravi lesioni o la morte.",
+	  "incorrect_feedback": "Sbagliato! Le balenottere azzurre sono vulnerabili alle collisioni con le navi che possono causare gravi lesioni o la morte."
+	},
+	{
+	  "id": 11,
+	  "question": "Perché le vaquita sono oggi in grave pericolo di estinzione?",
+	  "options": {
+		"A": "Acidificazione degli oceani",
+		"B": "Solo per il clima",
+		"C": "Reti da pesca illegali",
+		"D": "Predatori naturali"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Corretto! Le reti da posta illegali utilizzate per pescare il pesce totoaba intrappolano e uccidono accidentalmente le vaquita.",
+	  "incorrect_feedback": "Sbagliato! Le reti da posta illegali utilizzate per pescare il pesce totoaba intrappolano e uccidono accidentalmente le vaquita."
+	}
+  ],
+  "habitat_Rainforest": [
+	{
+	  "id": 0,
+	  "question": "Quale animale della foresta pluviale è classificato come in via di estinzione a causa della perdita di habitat e del bracconaggio?",
+	  "options": {
+		"A": "Panda",
+		"B": "Tigre",
+		"C": "Orango",
+		"D": "Leopardo"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Corretto! Le tigri sono in via di estinzione principalmente a causa della distruzione dell'habitat e della caccia illegale.",
+	  "incorrect_feedback": "Sbagliato! Le tigri sono in via di estinzione principalmente a causa della distruzione dell'habitat e della caccia illegale."
+	},
+	{
+	  "id": 1,
+	  "question": "Quale primate è in grave pericolo di estinzione a causa della deforestazione e delle piantagioni di olio di palma?",
+	  "options": {
+		"A": "Panda",
+		"B": "Gorilla",
+		"C": "Orango",
+		"D": "Tigre"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Corretto! Gli oranghi stanno perdendo rapidamente l'habitat a causa del disboscamento delle foreste pluviali per le piantagioni di olio di palma.",
+	  "incorrect_feedback": "Sbagliato! Gli oranghi stanno perdendo rapidamente l'habitat a causa del disboscamento delle foreste pluviali per le piantagioni di olio di palma."
+	},
+	{
+	  "id": 2,
+	  "question": "Quale specie di orso fa affidamento quasi interamente sul bambù per la sua dieta?",
+	  "options": {
+		"A": "Tigre",
+		"B": "Orso nero",
+		"C": "Orango",
+		"D": "Panda"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Corretto! I panda giganti dipendono dalle foreste di bambù per sopravvivere e sono vulnerabili alla perdita di habitat.",
+	  "incorrect_feedback": "Sbagliato! I panda giganti dipendono dalle foreste di bambù per sopravvivere e sono vulnerabili alla perdita di habitat."
+	},
+	{
+	  "id": 3,
+	  "question": "Qual è oggi la principale minaccia per le popolazioni di tigri?",
+	  "options": {
+		"A": "Bracconaggio e perdita di habitat",
+		"B": "Predatori naturali",
+		"C": "Clima freddo",
+		"D": "Mancanza d'acqua"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Corretto! La caccia illegale e la riduzione degli habitat sono le maggiori minacce per le tigri.",
+	  "incorrect_feedback": "Sbagliato! La caccia illegale e la riduzione degli habitat sono le maggiori minacce per le tigri."
+	},
+	{
+	  "id": 4,
+	  "question": "Perché gli oranghi sono particolarmente vulnerabili all'estinzione?",
+	  "options": {
+		"A": "Popolazione numerosa",
+		"B": "Riproduzione lenta e perdita di habitat",
+		"C": "Movimento veloce",
+		"D": "Resistenza al freddo"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Corretto! Gli oranghi si riproducono lentamente, quindi le popolazioni si riprendono molto lentamente dai cali.",
+	  "incorrect_feedback": "Sbagliato! Gli oranghi si riproducono lentamente, quindi le popolazioni si riprendono molto lentamente dai cali."
+	},
+	{
+	  "id": 5,
+	  "question": "In che modo la deforestazione influisce sui panda giganti?",
+	  "options": {
+		"A": "Migliora i rifugi",
+		"B": "Riduce i predatori",
+		"C": "Riduce l'habitat del bambù",
+		"D": "Aumenta l'approvvigionamento alimentare"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Corretto! La deforestazione distrugge le foreste di bambù da cui dipendono i panda per il cibo.",
+	  "incorrect_feedback": "Sbagliato! La deforestazione distrugge le foreste di bambù da cui dipendono i panda per il cibo."
+	},
+	{
+	  "id": 6,
+	  "question": "Quale specie è maggiormente colpita dal commercio illegale di animali selvatici?",
+	  "options": {
+		"A": "Cervo",
+		"B": "Panda",
+		"C": "Orango",
+		"D": "Tigre"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Corretto! Le tigri sono pesantemente prese di mira per le parti del loro corpo nei mercati illegali.",
+	  "incorrect_feedback": "Sbagliato! Le tigri sono pesantemente prese di mira per le parti del loro corpo nei mercati illegali."
+	},
+	{
+	  "id": 7,
+	  "question": "Quale specie della foresta pluviale trascorre la maggior parte della sua vita sugli alberi?",
+	  "options": {
+		"A": "Elefante",
+		"B": "Orango",
+		"C": "Panda",
+		"D": "Tigre"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Corretto! Gli oranghi sono arboricoli e si affidano alle chiome delle foreste per sopravvivere.",
+	  "incorrect_feedback": "Sbagliato! Gli oranghi sono arboricoli e si affidano alle chiome delle foreste per sopravvivere."
+	},
+	{
+	  "id": 8,
+	  "question": "Da quale tipo di habitat dipendono tutte e tre le specie?",
+	  "options": {
+		"A": "Ecosistemi forestali",
+		"B": "Tundra artica",
+		"C": "Praterie",
+		"D": "Deserti"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Corretto! Tutte e tre le specie dipendono dagli habitat forestali per cibo e riparo.",
+	  "incorrect_feedback": "Sbagliato! Tutte e tre le specie dipendono dagli habitat forestali per cibo e riparo."
+	},
+	{
+	  "id": 9,
+	  "question": "Quale minaccia colpisce tutte e tre le specie: panda, tigre e orango?",
+	  "options": {
+		"A": "Eruzioni vulcaniche",
+		"B": "Correnti oceaniche",
+		"C": "Perdita di habitat a causa delle attività umane",
+		"D": "Tempeste di neve"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Corretto! La deforestazione e l'espansione umana riducono gli habitat per tutte e tre le specie.",
+	  "incorrect_feedback": "Sbagliato! La deforestazione e l'espansione umana riducono gli habitat per tutte e tre le specie."
+	},
+	{
+	  "id": 10,
+	  "question": "Perché le popolazioni di tigri sono importanti per gli ecosistemi?",
+	  "options": {
+		"A": "Riducono la crescita delle piante",
+		"B": "Regolano le popolazioni di prede",
+		"C": "Rimuovono l'acqua",
+		"D": "Aumentano l'inquinamento"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Corretto! Le tigri sono superpredatori che aiutano a mantenere l'equilibrio dell'ecosistema.",
+	  "incorrect_feedback": "Sbagliato! Le tigri sono superpredatori che aiutano a mantenere l'equilibrio dell'ecosistema."
+	},
+	{
+	  "id": 11,
+	  "question": "Quale sforzo di conservazione ha aiutato ad aumentare le popolazioni di panda?",
+	  "options": {
+		"A": "Deforestazione",
+		"B": "Espansione urbana",
+		"C": "Programmi di caccia",
+		"D": "Protezione dell'habitat e riserve"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Corretto! Le riserve protette e i programmi di conservazione hanno aiutato i panda a riprendersi.",
+	  "incorrect_feedback": "Sbagliato! Le riserve protette e i programmi di conservazione hanno aiutato i panda a riprendersi."
+	},
+	{
+	  "id": 12,
+	  "question": "Che ruolo giocano gli oranghi negli ecosistemi della foresta pluviale?",
+	  "options": {
+		"A": "Riduzione della luce solare",
+		"B": "Aumento dell'inquinamento",
+		"C": "Dispersione dei semi",
+		"D": "Distruzione delle piante"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Corretto! Gli oranghi aiutano a spargere i semi, il che supporta la rigenerazione della foresta.",
+	  "incorrect_feedback": "Sbagliato! Gli oranghi aiutano a spargere i semi, il che supporta la rigenerazione della foresta."
+	},
+	{
+	  "id": 13,
+	  "question": "Quale azione aiuterebbe maggiormente a proteggere le specie della foresta pluviale?",
+	  "options": {
+		"A": "Ridurre la deforestazione",
+		"B": "Espandere le città",
+		"C": "Usare più combustibili fossili",
+		"D": "Aumentare il disboscamento"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Corretto! Proteggere le foreste preserva gli habitat per le specie in via di estinzione.",
+	  "incorrect_feedback": "Sbagliato! Proteggere le foreste preserva gli habitat per le specie in via di estinzione."
+	},
+	{
+	  "id": 14,
+	  "question": "Perché la biodiversità è importante nelle foreste pluviali?",
+	  "options": {
+		"A": "Contano solo le piante",
+		"B": "Mantiene l'equilibrio e la resilienza dell'ecosistema",
+		"C": "Contano solo i predatori",
+		"D": "Non ha alcun effetto"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Corretto! L'elevata biodiversità mantiene gli ecosistemi stabili e in grado di riprendersi dai cambiamenti.",
+	  "incorrect_feedback": "Sbagliato! L'elevata biodiversità mantiene gli ecosistemi stabili e in grado di riprendersi dai cambiamenti."
+	}
+  ],
+  "habitat_Arctic": [
+	{
+	  "id": 0,
+	  "question": "Quale specie artica è classificata come Vulnerabile principalmente a causa della perdita di ghiaccio marino guidata dai cambiamenti climatici?",
+	  "options": {
+		"A": "Volpe artica",
+		"B": "Caribù",
+		"C": "Gufo delle nevi",
+		"D": "Orso polare"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Corretto! Gli orsi polari dipendono dal ghiaccio marino come piattaforma di caccia e sono minacciati dalla diminuzione del ghiaccio.",
+	  "incorrect_feedback": "Sbagliato! Gli orsi polari dipendono dal ghiaccio marino come piattaforma di caccia e sono minacciati dalla diminuzione del ghiaccio."
+	},
+	{
+	  "id": 1,
+	  "question": "Quale specie preda è più critica per la sopravvivenza degli orsi polari a causa del suo alto contenuto di grassi?",
+	  "options": {
+		"A": "Merluzzo artico",
+		"B": "Uccelli marini",
+		"C": "Foca dagli anelli",
+		"D": "Krill"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Corretto! Le foche dagli anelli forniscono l'energia ad alto contenuto di grassi di cui gli orsi polari hanno bisogno per sopravvivere in condizioni estreme.",
+	  "incorrect_feedback": "Sbagliato! Le foche dagli anelli forniscono l'energia ad alto contenuto di grassi di cui gli orsi polari hanno bisogno per sopravvivere in condizioni estreme."
+	},
+	{
+	  "id": 2,
+	  "question": "Quale pinnipede artico fa affidamento sul ghiaccio marino stabile e sulla copertura nevosa per costruire tane da parto subnivee?",
+	  "options": {
+		"A": "Foca dagli anelli",
+		"B": "Elefante marino",
+		"C": "Foca grigia",
+		"D": "Foca della Groenlandia"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Corretto! Le foche dagli anelli costruiscono tane di neve sopra il ghiaccio marino per proteggere i loro cuccioli dal freddo e dai predatori.",
+	  "incorrect_feedback": "Sbagliato! Le foche dagli anelli costruiscono tane di neve sopra il ghiaccio marino per proteggere i loro cuccioli dal freddo e dai predatori."
+	},
+	{
+	  "id": 3,
+	  "question": "Il declino di quale specie di uccelli artici è fortemente legato alle riduzioni dell'estensione del ghiaccio marino?",
+	  "options": {
+		"A": "Pulcinella di mare",
+		"B": "Gufo delle nevi",
+		"C": "Gabbiano d'avorio",
+		"D": "Sterna artica"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Corretto! I gabbiani d'avorio si affidano al ghiaccio marino per l'alimentazione e stanno diminuendo con la scomparsa del ghiaccio.",
+	  "incorrect_feedback": "Sbagliato! I gabbiani d'avorio si affidano al ghiaccio marino per l'alimentazione e stanno diminuendo con la scomparsa del ghiaccio."
+	},
+	{
+	  "id": 4,
+	  "question": "Quale specie di balena artica ha subito un'intensa caccia alle balene commerciale e ora affronta le minacce derivanti dalle attività industriali?",
+	  "options": {
+		"A": "Balenottera azzurra",
+		"B": "Orca",
+		"C": "Beluga",
+		"D": "Balena della Groenlandia"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Corretto! Le balene della Groenlandia sono state intensamente cacciate e ora affrontano minacce come il rumore delle navi e l'esplorazione petrolifera.",
+	  "incorrect_feedback": "Sbagliato! Le balene della Groenlandia sono state intensamente cacciate e ora affrontano minacce come il rumore delle navi e l'esplorazione petrolifera."
+	},
+	{
+	  "id": 5,
+	  "question": "Quale fattore ambientale globale ha l'impatto più diffuso sulle specie artiche?",
+	  "options": {
+		"A": "Correnti oceaniche",
+		"B": "Cambiamento climatico",
+		"C": "Attività vulcanica",
+		"D": "Variazione stagionale della luce diurna"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Corretto! Il cambiamento climatico sta riscaldando rapidamente l'Artico e sciogliendo gli habitat critici del ghiaccio marino.",
+	  "incorrect_feedback": "Sbagliato! Il cambiamento climatico sta riscaldando rapidamente l'Artico e sciogliendo gli habitat critici del ghiaccio marino."
+	},
+	{
+	  "id": 6,
+	  "question": "Da una prospettiva ecologica, qual è la funzione primaria del ghiaccio marino per gli orsi polari?",
+	  "options": {
+		"A": "Rifugio dai predatori",
+		"B": "Termoregolazione",
+		"C": "Piattaforma di caccia per le foche",
+		"D": "Fonte di acqua dolce"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Corretto! Il ghiaccio marino permette agli orsi polari di accedere e cacciare le foche, la loro principale fonte di cibo.",
+	  "incorrect_feedback": "Sbagliato! Il ghiaccio marino permette agli orsi polari di accedere e cacciare le foche, la loro principale fonte di cibo."
+	},
+	{
+	  "id": 7,
+	  "question": "Il bioaccumulo di tossine è un problema importante per quale specie artica?",
+	  "options": {
+		"A": "Lemming",
+		"B": "Gabbiano d'avorio",
+		"C": "Lepre artica",
+		"D": "Caribù"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Corretto! I gabbiani d'avorio accumulano inquinanti attraverso la catena alimentare, compromettendo salute e riproduzione.",
+	  "incorrect_feedback": "Sbagliato! I gabbiani d'avorio accumulano inquinanti attraverso la catena alimentare, compromettendo salute e riproduzione."
+	},
+	{
+	  "id": 8,
+	  "question": "Lo scioglimento anticipato del ghiaccio marino stagionale influisce più direttamente sugli orsi polari attraverso quale meccanismo?",
+	  "options": {
+		"A": "Riduce la durata e il successo della caccia",
+		"B": "Espande l'habitat",
+		"C": "Migliora le rotte migratorie",
+		"D": "Aumenta la competizione"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Corretto! Meno tempo sul ghiaccio marino significa meno opportunità di cacciare le foche.",
+	  "incorrect_feedback": "Sbagliato! Meno tempo sul ghiaccio marino significa meno opportunità di cacciare le foche."
+	},
+	{
+	  "id": 9,
+	  "question": "Quale relazione rappresenta meglio una dinamica chiave predatore-preda nell'Artico?",
+	  "options": {
+		"A": "Volpe e Lemming",
+		"B": "Gufo e pesce",
+		"C": "Caribù ed erba",
+		"D": "Orso polare e Foca dagli anelli"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Corretto! Gli orsi polari si affidano pesantemente alle foche dagli anelli come loro principale fonte di cibo.",
+	  "incorrect_feedback": "Sbagliato! Gli orsi polari si affidano pesantemente alle foche dagli anelli come loro principale fonte di cibo."
+	},
+	{
+	  "id": 10,
+	  "question": "Quale strategia di mitigazione ridurrebbe più direttamente le minacce a lungo termine per la biodiversità artica?",
+	  "options": {
+		"A": "Sviluppo urbano",
+		"B": "Ridurre le emissioni di gas serra",
+		"C": "Aumentare la pesca",
+		"D": "Espandere le reti stradali"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Corretto! Minori emissioni rallentano il cambiamento climatico e aiutano a preservare gli ecosistemi artici.",
+	  "incorrect_feedback": "Sbagliato! Minori emissioni rallentano il cambiamento climatico e aiutano a preservare gli ecosistemi artici."
+	},
+	{
+	  "id": 11,
+	  "question": "Quale organizzazione è riconosciuta a livello internazionale per gli sforzi di conservazione delle specie artiche?",
+	  "options": {
+		"A": "Amazon",
+		"B": "FIFA",
+		"C": "World Wildlife Fund (WWF)",
+		"D": "NASA"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Corretto! Il WWF guida gli sforzi di conservazione globali, inclusa la protezione degli habitat artici.",
+	  "incorrect_feedback": "Sbagliato! Il WWF guida gli sforzi di conservazione globali, inclusa la protezione degli habitat artici."
+	},
+	{
+	  "id": 12,
+	  "question": "Le minacce moderne per le balene della Groenlandia includono quali delle seguenti?",
+	  "options": {
+		"A": "Desertificazione",
+		"B": "Deforestazione",
+		"C": "Caccia eccessiva",
+		"D": "Aumento del rumore delle navi e disturbo industriale"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Corretto! Il rumore delle spedizioni navali e industriale disturba la comunicazione e il comportamento delle balene.",
+	  "incorrect_feedback": "Sbagliato! Il rumore delle spedizioni navali e industriale disturba la comunicazione e il comportamento delle balene."
+	},
+	{
+	  "id": 13,
+	  "question": "Quale azione a livello individuale contribuisce maggiormente a ridurre il degrado dell'habitat artico?",
+	  "options": {
+		"A": "Ridurre al minimo l'impronta di carbonio",
+		"B": "Guidare più frequentemente",
+		"C": "Usare più plastica",
+		"D": "Aumentare l'uso di energia"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Corretto! Ridurre le emissioni personali aiuta a rallentare il cambiamento climatico e la perdita di habitat.",
+	  "incorrect_feedback": "Sbagliato! Ridurre le emissioni personali aiuta a rallentare il cambiamento climatico e la perdita di habitat."
+	},
+	{
+	  "id": 14,
+	  "question": "Perché la biodiversità è fondamentale per la stabilità dell'ecosistema artico?",
+	  "options": {
+		"A": "Non ha alcun effetto",
+		"B": "Le interazioni tra specie mantengono l'equilibrio e la resilienza",
+		"C": "Conta solo il clima",
+		"D": "Contano solo i predatori"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Corretto! Gli ecosistemi artici sono interconnessi, quindi perdere una specie può sconvolgere l'intero sistema.",
+	  "incorrect_feedback": "Sbagliato! Gli ecosistemi artici sono interconnessi, quindi perdere una specie può sconvolgere l'intero sistema."
+	}
+  ],
+  "habitat_CostalWetlands": [
+	{
+	  "id": 0,
+	  "question": "Quale mammifero delle zone umide costiere è vulnerabile a causa degli scontri con le barche e della perdita di habitat?",
+	  "options": {
+		"A": "Alligatore",
+		"B": "Coniglio di palude",
+		"C": "Lamantino",
+		"D": "Airone"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Corretto! I lamantini sono spesso feriti o uccisi dalle barche e perdono l'habitat a causa dello sviluppo costiero.",
+	  "incorrect_feedback": "Sbagliato! I lamantini sono spesso feriti o uccisi dalle barche e perdono l'habitat a causa dello sviluppo costiero."
+	},
+	{
+	  "id": 1,
+	  "question": "Quale uccello delle zone umide dipende da habitat di acque basse per l'alimentazione ed è colpito dall'inquinamento dell'acqua?",
+	  "options": {
+		"A": "Lamantino",
+		"B": "Airone",
+		"C": "Coniglio di palude",
+		"D": "Alligatore"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Corretto! Gli aironi si affidano ad acque basse e pulite per cacciare i pesci e sono colpiti dall'inquinamento.",
+	  "incorrect_feedback": "Sbagliato! Gli aironi si affidano ad acque basse e pulite per cacciare i pesci e sono colpiti dall'inquinamento."
+	},
+	{
+	  "id": 2,
+	  "question": "Quale grande rettile è colpito dalla perdita delle zone umide ma si è ripreso grazie alle leggi di conservazione?",
+	  "options": {
+		"A": "Airone",
+		"B": "Lamantino",
+		"C": "Coniglio di palude",
+		"D": "Alligatore"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Corretto! Gli alligatori un tempo erano in via di estinzione ma si sono ripresi grazie alla protezione e alla conservazione dell'habitat.",
+	  "incorrect_feedback": "Sbagliato! Gli alligatori un tempo erano in via di estinzione ma si sono ripresi grazie alla protezione e alla conservazione dell'habitat."
+	},
+	{
+	  "id": 3,
+	  "question": "Quale piccolo mammifero delle zone umide è minacciato dalla perdita di habitat e dalle inondazioni?",
+	  "options": {
+		"A": "Coniglio di palude",
+		"B": "Alligatore",
+		"C": "Lamantino",
+		"D": "Airone"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Corretto! I conigli di palude dipendono dalla fitta vegetazione delle zone umide e sono vulnerabili ai cambiamenti dell'habitat.",
+	  "incorrect_feedback": "Sbagliato! I conigli di palude dipendono dalla fitta vegetazione delle zone umide e sono vulnerabili ai cambiamenti dell'habitat."
+	},
+	{
+	  "id": 4,
+	  "question": "Qual è una delle principali minacce per le popolazioni di lamantini?",
+	  "options": {
+		"A": "Attività vulcanica",
+		"B": "Collisioni con barche e perdita di habitat",
+		"C": "Predazione da parte di uccelli",
+		"D": "Clima freddo"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Corretto! Gli scontri con le barche sono una delle principali cause di lesioni e morte per i lamantini.",
+	  "incorrect_feedback": "Sbagliato! Gli scontri con le barche sono una delle principali cause di lesioni e morte per i lamantini."
+	},
+	{
+	  "id": 5,
+	  "question": "In che modo l'inquinamento dell'acqua influisce sugli aironi?",
+	  "options": {
+		"A": "Elimina i predatori",
+		"B": "Aumenta il successo della nidificazione",
+		"C": "Riduce la disponibilità di prede",
+		"D": "Migliora la caccia"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Corretto! L'inquinamento può uccidere i pesci, il che riduce il cibo per gli aironi.",
+	  "incorrect_feedback": "Sbagliato! L'inquinamento può uccidere i pesci, il che riduce il cibo per gli aironi."
+	},
+	{
+	  "id": 6,
+	  "question": "Perché un tempo gli alligatori erano in via di estinzione?",
+	  "options": {
+		"A": "Caccia eccessiva e perdita di habitat",
+		"B": "Temperature fredde",
+		"C": "Inquinamento oceanico",
+		"D": "Troppi predatori"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Corretto! Gli alligatori venivano cacciati pesantemente per la loro pelle e hanno perso il loro habitat.",
+	  "incorrect_feedback": "Sbagliato! Gli alligatori venivano cacciati pesantemente per la loro pelle e hanno perso il loro habitat."
+	},
+	{
+	  "id": 7,
+	  "question": "Quale specie è più sensibile alle inondazioni e ai cambiamenti di habitat nelle zone umide?",
+	  "options": {
+		"A": "Airone",
+		"B": "Alligatore",
+		"C": "Lamantino",
+		"D": "Coniglio di palude"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Corretto! I conigli di palude si affidano a una vegetazione stabile e sono facilmente colpiti dalle inondazioni.",
+	  "incorrect_feedback": "Sbagliato! I conigli di palude si affidano a una vegetazione stabile e sono facilmente colpiti dalle inondazioni."
+	},
+	{
+	  "id": 8,
+	  "question": "Da quale habitat dipendono tutte e quattro le specie?",
+	  "options": {
+		"A": "Montagne",
+		"B": "Ecosistemi delle zone umide",
+		"C": "Praterie",
+		"D": "Deserti"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Corretto! Tutte queste specie si affidano alle zone umide per cibo, riparo e riproduzione.",
+	  "incorrect_feedback": "Sbagliato! Tutte queste specie si affidano alle zone umide per cibo, riparo e riproduzione."
+	},
+	{
+	  "id": 9,
+	  "question": "Quale minaccia colpisce tutte e quattro le specie: lamantino, airone, alligatore e coniglio di palude?",
+	  "options": {
+		"A": "Ghiacciai",
+		"B": "Tempeste di neve",
+		"C": "Perdita di habitat e inquinamento",
+		"D": "Eruzioni vulcaniche"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Corretto! Lo sviluppo umano e l'inquinamento riducono gli habitat delle zone umide.",
+	  "incorrect_feedback": "Sbagliato! Lo sviluppo umano e l'inquinamento riducono gli habitat delle zone umide."
+	},
+	{
+	  "id": 10,
+	  "question": "Come contribuiscono i lamantini agli ecosistemi delle zone umide?",
+	  "options": {
+		"A": "Distruggono gli habitat",
+		"B": "Riducono l'ossigeno",
+		"C": "Aumentano l'inquinamento",
+		"D": "Aiutano a mantenere la vegetazione acquatica"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Corretto! I lamantini pascolano le piante, il che aiuta a mantenere sani gli ecosistemi.",
+	  "incorrect_feedback": "Sbagliato! I lamantini pascolano le piante, il che aiuta a mantenere sani gli ecosistemi."
+	},
+	{
+	  "id": 11,
+	  "question": "Quale predatore delle zone umide aiuta a controllare le popolazioni di pesci e piccoli animali?",
+	  "options": {
+		"A": "Airone",
+		"B": "Alligatore",
+		"C": "Lamantino",
+		"D": "Coniglio di palude"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Corretto! Gli alligatori giocano un ruolo chiave nel mantenere l'equilibrio negli ecosistemi delle zone umide.",
+	  "incorrect_feedback": "Sbagliato! Gli alligatori giocano un ruolo chiave nel mantenere l'equilibrio negli ecosistemi delle zone umide."
+	},
+	{
+	  "id": 12,
+	  "question": "Quale azione di conservazione protegge meglio le specie delle zone umide?",
+	  "options": {
+		"A": "Proteggere e ripristinare le zone umide",
+		"B": "Drenare le zone umide",
+		"C": "Costruire più strade",
+		"D": "Aumentare lo sviluppo"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Corretto! La protezione dell'habitat è fondamentale per la sopravvivenza delle specie delle zone umide.",
+	  "incorrect_feedback": "Sbagliato! La protezione dell'habitat è fondamentale per la sopravvivenza delle specie delle zone umide."
+	},
+	{
+	  "id": 13,
+	  "question": "Quale specie è più a rischio a causa del disturbo umano per via del movimento lento?",
+	  "options": {
+		"A": "Airone",
+		"B": "Coniglio di palude",
+		"C": "Lamantino",
+		"D": "Alligatore"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Corretto! I lamantini si muovono lentamente e sono vulnerabili alle barche e alle attività umane.",
+	  "incorrect_feedback": "Sbagliato! I lamantini si muovono lentamente e sono vulnerabili alle barche e alle attività umane."
+	},
+	{
+	  "id": 14,
+	  "question": "Perché la biodiversità è importante negli ecosistemi delle zone umide?",
+	  "options": {
+		"A": "Contano solo le piante",
+		"B": "Contano solo i predatori",
+		"C": "Non ha alcun effetto",
+		"D": "Mantiene l'equilibrio e la resilienza dell'ecosistema"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Corretto! Le diverse interazioni tra le specie mantengono le zone umide stabili e funzionanti.",
+	  "incorrect_feedback": "Sbagliato! Le diverse interazioni tra le specie mantengono le zone umide stabili e funzionanti."
+	}
+  ]
+}
