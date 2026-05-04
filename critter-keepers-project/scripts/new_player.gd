@@ -24,8 +24,8 @@ func _physics_process(delta):
 		return
 
 	var input_dir := Vector2.ZERO
-	input_dir.x = Input.get_action_strength("ui_right") - Input.get_action_strength("ui_left")
-	input_dir.y = Input.get_action_strength("ui_down") - Input.get_action_strength("ui_up")
+	input_dir.x = Input.get_action_strength("move_right") - Input.get_action_strength("move_left")
+	input_dir.y = Input.get_action_strength("move_down") - Input.get_action_strength("move_up")
 
 	var current_speed = speed_terra
 
