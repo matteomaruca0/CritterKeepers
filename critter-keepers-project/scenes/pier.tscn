@@ -181,8 +181,4 @@ text = "COME_VUOI_ANDARE"
 layout_mode = 2
 text = "NUOTARE"
 
-[node name="BtnFly" type="Button" parent="TravelPanel/Panel/ChooseContainer" unique_id=1726494027]
-layout_mode = 2
-text = "VOLARE"
-
 [connection signal="body_entered" from="Wood/Pier/Area2D" to="TravelPanel" method="_on_area_2d_body_entered"]

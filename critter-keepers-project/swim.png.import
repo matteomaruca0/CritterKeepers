@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://uihtqnofoifs"
-path="res://.godot/imported/SwitzerlandFlagsAnima (1).png-86396b5cab2635da6bdb0cd50dadede3.ctex"
+uid="uid://c5cw8gs786krl"
+path="res://.godot/imported/swim.png-69ad90dd76848e7b2275a74e461e1b66.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/graphics/animated/SwitzerlandFlagsAnima (1).png"
-dest_files=["res://.godot/imported/SwitzerlandFlagsAnima (1).png-86396b5cab2635da6bdb0cd50dadede3.ctex"]
+source_file="res://swim.png"
+dest_files=["res://.godot/imported/swim.png-69ad90dd76848e7b2275a74e461e1b66.ctex"]
 
 [params]
 

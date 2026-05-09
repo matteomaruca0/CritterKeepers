@@ -1,0 +1,1173 @@
+{
+  "habitat_temperateForest": [
+	{
+	  "id": 0,
+	  "question": "Which temperate forest mammal is threatened by habitat loss and human development but is not currently endangered?",
+	  "options": {
+		"A": "Red fox",
+		"B": "Black bear",
+		"C": "Gray wolf",
+		"D": "Eastern box turtle"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Correct! Black bears lose habitat due to urban expansion but populations remain stable in many regions.",
+	  "incorrect_feedback": "Wrong! Black bears lose habitat due to urban expansion but populations remain stable in many regions."
+	},
+	{
+	  "id": 1,
+	  "question": "Which temperate forest reptile is considered vulnerable due to habitat fragmentation and road mortality?",
+	  "options": {
+		"A": "White tailed deer",
+		"B": "Red fox",
+		"C": "Eastern box turtle",
+		"D": "Black bear"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Correct! Eastern box turtles are slow moving and often killed by cars while crossing roads.",
+	  "incorrect_feedback": "Wrong! Eastern box turtles are slow moving and often killed by cars while crossing roads."
+	},
+	{
+	  "id": 2,
+	  "question": "Which adaptable forest predator is affected by habitat loss but can survive near human environments?",
+	  "options": {
+		"A": "Eastern box turtle",
+		"B": "Black bear",
+		"C": "Bobcat",
+		"D": "Red fox"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Correct! Red foxes can live near cities but still face threats from habitat changes and human conflict.",
+	  "incorrect_feedback": "Wrong! Red foxes can live near cities but still face threats from habitat changes and human conflict."
+	},
+	{
+	  "id": 3,
+	  "question": "What is a major threat to Eastern box turtle populations?",
+	  "options": {
+		"A": "Ocean pollution",
+		"B": "Road mortality and habitat loss",
+		"C": "Cold temperatures",
+		"D": "Volcanic activity"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Correct! Many turtles are killed by vehicles and lose habitat due to development.",
+	  "incorrect_feedback": "Wrong! Many turtles are killed by vehicles and lose habitat due to development."
+	},
+	{
+	  "id": 4,
+	  "question": "Why are black bears increasingly coming into contact with humans?",
+	  "options": {
+		"A": "Increased predators",
+		"B": "Colder temperatures",
+		"C": "Habitat loss and search for food",
+		"D": "Loss of fur"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Correct! As forests shrink bears search for food in human areas leading to conflict.",
+	  "incorrect_feedback": "Wrong! As forests shrink bears search for food in human areas leading to conflict."
+	},
+	{
+	  "id": 5,
+	  "question": "How does habitat fragmentation affect red fox populations?",
+	  "options": {
+		"A": "It reduces territory and food access",
+		"B": "It increases habitat size",
+		"C": "It eliminates predators",
+		"D": "It improves hunting success"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Correct! Fragmented habitats limit resources and increase competition.",
+	  "incorrect_feedback": "Wrong! Fragmented habitats limit resources and increase competition."
+	},
+	{
+	  "id": 6,
+	  "question": "Which species is most at risk due to slow movement and long lifespan?",
+	  "options": {
+		"A": "Raccoon",
+		"B": "Black bear",
+		"C": "Red fox",
+		"D": "Eastern box turtle"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Correct! Slow movement and long lifespan make it hard for turtle populations to recover quickly.",
+	  "incorrect_feedback": "Wrong! Slow movement and long lifespan make it hard for turtle populations to recover quickly."
+	},
+	{
+	  "id": 7,
+	  "question": "Which temperate forest species benefits from conservation laws that protect large habitats?",
+	  "options": {
+		"A": "Red fox",
+		"B": "Black bear",
+		"C": "Squirrel",
+		"D": "Eastern box turtle"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Correct! Protected forests help maintain stable bear populations.",
+	  "incorrect_feedback": "Wrong! Protected forests help maintain stable bear populations."
+	},
+	{
+	  "id": 8,
+	  "question": "Which threat affects all three species black bear red fox and eastern box turtle?",
+	  "options": {
+		"A": "Ocean acidification",
+		"B": "Desertification",
+		"C": "Habitat loss and human expansion",
+		"D": "Glacial melting"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Correct! Human development reduces forest habitats for all these species.",
+	  "incorrect_feedback": "Wrong! Human development reduces forest habitats for all these species."
+	},
+	{
+	  "id": 9,
+	  "question": "Why are Eastern box turtles especially vulnerable to population decline?",
+	  "options": {
+		"A": "Low reproduction rates and high mortality",
+		"B": "Fast reproduction",
+		"C": "High mobility",
+		"D": "Short lifespan"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Correct! They reproduce slowly so populations cannot recover quickly from losses.",
+	  "incorrect_feedback": "Wrong! They reproduce slowly so populations cannot recover quickly from losses."
+	}
+  ],
+  "habitat_Savanah": [
+	{
+	  "id": 0,
+	  "question": "Why are African savanna elephants endangered?",
+	  "options": {
+		"A": "Too much rain",
+		"B": "Predators",
+		"C": "Poaching and habitat loss",
+		"D": "Global Warming"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Correct! Elephants are endangered mostly because people kill them for ivory and because they are losing places to live.",
+	  "incorrect_feedback": "Wrong! Elephants are endangered mostly because people kill them for ivory and because they are losing places to live."
+	},
+	{
+	  "id": 1,
+	  "question": "What is one way people can help protect elephants?",
+	  "options": {
+		"A": "Keep elephants as pets",
+		"B": "Never buy ivory products",
+		"C": "Chase elephants away",
+		"D": "Feed wild elephants"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Correct! Buying ivory helps support poaching, so refusing to buy it helps protect elephants.",
+	  "incorrect_feedback": "Wrong! Buying ivory helps support poaching, so refusing to buy it helps protect elephants."
+	},
+	{
+	  "id": 2,
+	  "question": "Why are an African elephant's ears so big?",
+	  "options": {
+		"A": "They store water",
+		"B": "They help it fly",
+		"C": "They help cool the body",
+		"D": "They make the trunk stronger"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Correct! Big ears help elephants cool down by letting body heat escape.",
+	  "incorrect_feedback": "Wrong! Big ears help elephants cool down by letting body heat escape."
+	},
+	{
+	  "id": 3,
+	  "question": "Why are black rhinos critically endangered?",
+	  "options": {
+		"A": "Poaching for their horns",
+		"B": "Lack of mud wallows",
+		"C": "Too many natural predator",
+		"D": "Not enough grass to eat"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Correct! Black rhinos have been heavily poached because people illegally sell their horns.",
+	  "incorrect_feedback": "Wrong! Black rhinos have been heavily poached because people illegally sell their horns."
+	},
+	{
+	  "id": 4,
+	  "question": "What is a rhino's horn mostly made of?",
+	  "options": {
+		"A": "Bone",
+		"B": "Calcium",
+		"C": "Cartilage",
+		"D": "Keratin"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Correct! Rhino horn is made of keratin, the same material found in human hair and nails.",
+	  "incorrect_feedback": "Wrong! Rhino horn is made of keratin, the same material found in human hair and nails."
+	},
+	{
+	  "id": 5,
+	  "question": "What is one way people can help protect rhinos?",
+	  "options": {
+		"A": "Keep rhinos in fenced parks only",
+		"B": "Support anti-poaching efforts",
+		"C": "Stop tourists from seeing rhinos",
+		"D": "Breed more rhinos in zoos"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Correct! Supporting anti-poaching work helps protect rhinos from being killed illegally.",
+	  "incorrect_feedback": "Wrong! Supporting anti-poaching work helps protect rhinos from being killed illegally."
+	},
+	{
+	  "id": 6,
+	  "question": "Why are the black lines under a cheetah's eyes useful?",
+	  "options": {
+		"A": "They protect their eyes from dust",
+		"B": "They help cheetahs blend into grass",
+		"C": "They help reduce glare from the sun",
+		"D": "They help other cheetahs recognize them"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Correct! The black tear marks help reduce sunlight glare so cheetahs can focus better on prey.",
+	  "incorrect_feedback": "Wrong! The black tear marks help reduce sunlight glare so cheetahs can focus better on prey."
+	},
+	{
+	  "id": 7,
+	  "question": "Why is the illegal pet trade harmful to cheetah populations?",
+	  "options": {
+		"A": "Cheetahs become slower over time",
+		"B": "Cubs are taken from the wild, lowering survival in nature",
+		"C": "Adult cheetahs stop teaching cubs to hunt",
+		"D": "It causes cheetahs to lose their hunting instincts immediately"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Correct! Cubs taken from the wild for the pet trade do not stay in their natural population, which hurts cheetah numbers.",
+	  "incorrect_feedback": "Wrong! Cubs taken from the wild for the pet trade do not stay in their natural population, which hurts cheetah numbers."
+	},
+	{
+	  "id": 8,
+	  "question": "What is one way people can help cheetahs?",
+	  "options": {
+		"A": "Protect wild land and habitat",
+		"B": "Move cheetahs into protected zoos",
+		"C": "Breed more cheetahs in captivity",
+		"D": "Provide cheetahs with monitored feeding areas"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Correct! Cheetahs need large areas of habitat to survive, so protecting land helps them.",
+	  "incorrect_feedback": "Wrong! Cheetahs need large areas of habitat to survive, so protecting land helps them."
+	},
+	{
+	  "id": 9,
+	  "question": "Why do cheetahs need large open grasslands?",
+	  "options": {
+		"A": "Their fur changes color outside open habitats",
+		"B": "They need flat land to build dens",
+		"C": "They only eat plants that grow in grasslands",
+		"D": "They need space to chase prey at high speeds"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Correct! Cheetahs rely on speed to catch prey, so they need wide open space to run and turn quickly.",
+	  "incorrect_feedback": "Wrong! Cheetahs rely on speed to catch prey, so they need wide open space to run and turn quickly."
+	}
+  ],
+  "habitat_AlpineLakes": [
+	{
+	  "id": 0,
+	  "question": "Which alpine mammal is known for its ability to climb steep rocky cliffs and was once nearly extinct in Europe?",
+	  "options": {
+		"A": "Marmot",
+		"B": "Alpine newt",
+		"C": "Alpine ibex",
+		"D": "Golden eagle"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Correct! Alpine ibex populations declined due to overhunting but have recovered through conservation efforts.",
+	  "incorrect_feedback": "Wrong! Alpine ibex populations declined due to overhunting but have recovered through conservation efforts."
+	},
+	{
+	  "id": 1,
+	  "question": "Which alpine rodent hibernates for long periods and is sensitive to climate change?",
+	  "options": {
+		"A": "Marmot",
+		"B": "Golden eagle",
+		"C": "Alpine ibex",
+		"D": "Alpine newt"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Correct! Marmots rely on long winters for hibernation and warming temperatures disrupt their life cycle.",
+	  "incorrect_feedback": "Wrong! Marmots rely on long winters for hibernation and warming temperatures disrupt their life cycle."
+	},
+	{
+	  "id": 2,
+	  "question": "Which bird of prey in alpine regions is threatened by habitat loss and human disturbance?",
+	  "options": {
+		"A": "Marmot",
+		"B": "Golden eagle",
+		"C": "Alpine newt",
+		"D": "Alpine ibex"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Correct! Golden eagles are affected by habitat disruption and reduced prey availability.",
+	  "incorrect_feedback": "Wrong! Golden eagles are affected by habitat disruption and reduced prey availability."
+	},
+	{
+	  "id": 3,
+	  "question": "Which amphibian found in alpine environments is vulnerable to water pollution and habitat changes?",
+	  "options": {
+		"A": "Golden eagle",
+		"B": "Marmot",
+		"C": "Alpine ibex",
+		"D": "Alpine newt"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Correct! Alpine newts depend on clean freshwater habitats which are easily affected by pollution.",
+	  "incorrect_feedback": "Wrong! Alpine newts depend on clean freshwater habitats which are easily affected by pollution."
+	},
+	{
+	  "id": 4,
+	  "question": "What was the main historical threat to Alpine ibex populations?",
+	  "options": {
+		"A": "Disease",
+		"B": "Natural predators",
+		"C": "Overhunting",
+		"D": "Climate change"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Correct! Alpine ibex were hunted extensively for meat and horns which nearly caused extinction.",
+	  "incorrect_feedback": "Wrong! Alpine ibex were hunted extensively for meat and horns which nearly caused extinction."
+	},
+	{
+	  "id": 5,
+	  "question": "How does climate change threaten marmot populations?",
+	  "options": {
+		"A": "It improves shelter",
+		"B": "It disrupts hibernation cycles",
+		"C": "It reduces predators",
+		"D": "It increases food supply"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Correct! Warming temperatures shorten hibernation periods and affect survival rates.",
+	  "incorrect_feedback": "Wrong! Warming temperatures shorten hibernation periods and affect survival rates."
+	},
+	{
+	  "id": 6,
+	  "question": "Why are golden eagles vulnerable to human activity?",
+	  "options": {
+		"A": "Too much prey",
+		"B": "Cold temperatures",
+		"C": "Excess nesting space",
+		"D": "Habitat loss and poisoning"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Correct! Human expansion and poisoning reduce eagle populations and nesting success.",
+	  "incorrect_feedback": "Wrong! Human expansion and poisoning reduce eagle populations and nesting success."
+	},
+	{
+	  "id": 7,
+	  "question": "Which environmental factor is most critical for the survival of Alpine newts?",
+	  "options": {
+		"A": "Rocky cliffs",
+		"B": "Clean freshwater habitats",
+		"C": "Deep snow",
+		"D": "Open grasslands"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Correct! Alpine newts require clean ponds and wetlands for breeding and development.",
+	  "incorrect_feedback": "Wrong! Alpine newts require clean ponds and wetlands for breeding and development."
+	},
+	{
+	  "id": 8,
+	  "question": "Which alpine species recovery is considered a conservation success story?",
+	  "options": {
+		"A": "Alpine ibex",
+		"B": "Marmot",
+		"C": "Golden eagle",
+		"D": "Alpine newt"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Correct! Protection laws and reintroduction programs helped Alpine ibex populations recover.",
+	  "incorrect_feedback": "Wrong! Protection laws and reintroduction programs helped Alpine ibex populations recover."
+	},
+	{
+	  "id": 9,
+	  "question": "Which alpine species is most affected by rising temperatures reducing snow cover?",
+	  "options": {
+		"A": "Golden eagle",
+		"B": "Alpine ibex",
+		"C": "Marmot",
+		"D": "Alpine newt"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Correct! Marmots depend on snow insulation during hibernation and are affected by reduced snow cover.",
+	  "incorrect_feedback": "Wrong! Marmots depend on snow insulation during hibernation and are affected by reduced snow cover."
+	},
+	{
+	  "id": 10,
+	  "question": "What type of ecosystem do all these alpine species depend on?",
+	  "options": {
+		"A": "Urban areas",
+		"B": "Deserts",
+		"C": "Tropical forests",
+		"D": "Mountain ecosystems"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Correct! These species rely on cold high altitude mountain environments for survival.",
+	  "incorrect_feedback": "Wrong! These species rely on cold high altitude mountain environments for survival."
+	},
+	{
+	  "id": 11,
+	  "question": "Which threat impacts all four alpine species ibex marmot eagle and newt?",
+	  "options": {
+		"A": "Earthquakes",
+		"B": "Climate change and habitat loss",
+		"C": "Volcanic eruptions",
+		"D": "Ocean currents"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Correct! Climate change alters habitats and affects food and water availability for all these species.",
+	  "incorrect_feedback": "Wrong! Climate change alters habitats and affects food and water availability for all these species."
+	}
+  ],
+  "habitat_Costal": [
+	{
+	  "id": 0,
+	  "question": "Which two sea turtle species are classified as critically endangered, making them the most endangered of all sea turtles?",
+	  "options": {
+		"A": "Flatback turtle and Green turtle",
+		"B": "Leatherback turtle and Olive ridley turtle",
+		"C": "Hawksbill turtle and Kemp's ridley turtle",
+		"D": "Green turtle and Loggerhead turtle"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Correct! Hawksbill turtles and Kemp's ridley turtles are currently in the greatest danger of going extinct.",
+	  "incorrect_feedback": "Wrong! Hawksbill turtles and Kemp's ridley turtles are currently in the greatest danger of going extinct."
+	},
+	{
+	  "id": 1,
+	  "question": "Approximately how many hatchlings survive to adulthood?",
+	  "options": {
+		"A": "1 in 100",
+		"B": "1 in 1,000",
+		"C": "1 in 10",
+		"D": "1 in 10,000"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Correct! Most are lost to predators and environmental challenges early in life.",
+	  "incorrect_feedback": "Wrong! Most are lost to predators and environmental challenges early in life."
+	},
+	{
+	  "id": 2,
+	  "question": "Which sea turtle species has the widest global range and can live in very cold waters?",
+	  "options": {
+		"A": "Green turtle",
+		"B": "Loggerhead turtle",
+		"C": "Flatback turtle",
+		"D": "Leatherback turtle"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Correct! They can survive in waters as cold as 7.5C and migrate across enture oceans.",
+	  "incorrect_feedback": "Wrong! They can survive in waters as cold as 7.5C and migrate across enture oceans."
+	},
+	{
+	  "id": 3,
+	  "question": "Which marine reptile is endangered largely due to plastic pollution and fishing nets?",
+	  "options": {
+		"A": "Sea turtle",
+		"B": "Dolphin",
+		"C": "Blue whale",
+		"D": "Vaquita"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Correct! Sea turtles often ingest plastic or become entangled in fishing gear leading to injury or death.",
+	  "incorrect_feedback": "Wrong! Sea turtles often ingest plastic or become entangled in fishing gear leading to injury or death."
+	},
+	{
+	  "id": 4,
+	  "question": "Which marine mammal is currently considered the most endangered in the world?",
+	  "options": {
+		"A": "Dolphin",
+		"B": "Blue whale",
+		"C": "Vaquita",
+		"D": "Sea turtle"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Correct! The vaquita is critically endangered with fewer than 10 individuals remaining due to illegal fishing nets.",
+	  "incorrect_feedback": "Wrong! The vaquita is critically endangered with fewer than 10 individuals remaining due to illegal fishing nets."
+	},
+	{
+	  "id": 5,
+	  "question": "Which is the largest animal to have ever lived on Earth and is classified as endangered?",
+	  "options": {
+		"A": "Vaquita",
+		"B": "Blue whale",
+		"C": "Sea turtle",
+		"D": "Dolphin"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Correct! Blue whales were heavily hunted and are still recovering despite protections.",
+	  "incorrect_feedback": "Wrong! Blue whales were heavily hunted and are still recovering despite protections."
+	},
+	{
+	  "id": 6,
+	  "question": "Which coastal species is most threatened by bycatch in illegal gillnets?",
+	  "options": {
+		"A": "Sea turtle",
+		"B": "Blue whale",
+		"C": "Dolphin",
+		"D": "Vaquita"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Correct! Vaquitas are often accidentally caught and killed in gillnets used for illegal fishing.",
+	  "incorrect_feedback": "Wrong! Vaquitas are often accidentally caught and killed in gillnets used for illegal fishing."
+	},
+	{
+	  "id": 7,
+	  "question": "What is the primary threat to many sea turtle species worldwide?",
+	  "options": {
+		"A": "Lack of sunlight",
+		"B": "Plastic pollution and fishing gear entanglement",
+		"C": "Predation by birds",
+		"D": "Cold temperatures"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Correct! Human waste and fishing gear are major causes of injury and death for sea turtles.",
+	  "incorrect_feedback": "Wrong! Human waste and fishing gear are major causes of injury and death for sea turtles."
+	},
+	{
+	  "id": 8,
+	  "question": "Which dolphin population is critically endangered due to habitat restriction and human activity?",
+	  "options": {
+		"A": "Bottlenose dolphin",
+		"B": "Common dolphin",
+		"C": "Maui's dolphin",
+		"D": "Spinner dolphin"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Correct! Maui's dolphin is one of the rarest dolphins and is threatened by fishing and habitat disturbance.",
+	  "incorrect_feedback": "Wrong! Maui's dolphin is one of the rarest dolphins and is threatened by fishing and habitat disturbance."
+	},
+	{
+	  "id": 9,
+	  "question": "How do rising ocean temperatures affect sea turtles?",
+	  "options": {
+		"A": "They increase shell strength",
+		"B": "They reduce swimming ability",
+		"C": "They eliminate predators",
+		"D": "They alter sex ratios of hatchlings"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Correct! Warmer sand temperatures produce more female hatchlings which disrupts population balance.",
+	  "incorrect_feedback": "Wrong! Warmer sand temperatures produce more female hatchlings which disrupts population balance."
+	},
+	{
+	  "id": 10,
+	  "question": "Which endangered species is most impacted by ship strikes due to its large size and slow movement?",
+	  "options": {
+		"A": "Dolphin",
+		"B": "Sea turtle",
+		"C": "Vaquita",
+		"D": "Blue whale"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Correct! Blue whales are vulnerable to collisions with ships which can cause serious injury or death.",
+	  "incorrect_feedback": "Wrong! Blue whales are vulnerable to collisions with ships which can cause serious injury or death."
+	},
+	{
+	  "id": 11,
+	  "question": "Why are vaquitas critically endangered today?",
+	  "options": {
+		"A": "Ocean acidification",
+		"B": "Climate alone",
+		"C": "Illegal fishing nets",
+		"D": "Natural predators"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Correct! Illegal gillnets used for fishing totoaba fish accidentally trap and kill vaquitas.",
+	  "incorrect_feedback": "Wrong! Illegal gillnets used for fishing totoaba fish accidentally trap and kill vaquitas."
+	}
+  ],
+  "habitat_Rainforest": [
+	{
+	  "id": 0,
+	  "question": "Which rainforest animal is classified as endangered due to habitat loss and poaching?",
+	  "options": {
+		"A": "Panda",
+		"B": "Tiger",
+		"C": "Orangutan",
+		"D": "Leopard"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Correct! Tigers are endangered mainly due to habitat destruction and illegal hunting.",
+	  "incorrect_feedback": "Wrong! Tigers are endangered mainly due to habitat destruction and illegal hunting."
+	},
+	{
+	  "id": 1,
+	  "question": "Which primate is critically endangered due to deforestation and palm oil farming?",
+	  "options": {
+		"A": "Panda",
+		"B": "Gorilla",
+		"C": "Orangutan",
+		"D": "Tiger"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Correct! Orangutans are losing habitat rapidly due to rainforest clearing for palm oil plantations.",
+	  "incorrect_feedback": "Wrong! Orangutans are losing habitat rapidly due to rainforest clearing for palm oil plantations."
+	},
+	{
+	  "id": 2,
+	  "question": "Which bear species relies almost entirely on bamboo for its diet?",
+	  "options": {
+		"A": "Tiger",
+		"B": "Black bear",
+		"C": "Orangutan",
+		"D": "Panda"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Correct! Giant pandas depend on bamboo forests for survival and are vulnerable to habitat loss.",
+	  "incorrect_feedback": "Wrong! Giant pandas depend on bamboo forests for survival and are vulnerable to habitat loss."
+	},
+	{
+	  "id": 3,
+	  "question": "What is the primary threat to tiger populations today?",
+	  "options": {
+		"A": "Poaching and habitat loss",
+		"B": "Natural predators",
+		"C": "Cold weather",
+		"D": "Lack of water"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Correct! Illegal hunting and shrinking habitats are the biggest threats to tigers.",
+	  "incorrect_feedback": "Wrong! Illegal hunting and shrinking habitats are the biggest threats to tigers."
+	},
+	{
+	  "id": 4,
+	  "question": "Why are orangutans especially vulnerable to extinction?",
+	  "options": {
+		"A": "Large population",
+		"B": "Slow reproduction and habitat loss",
+		"C": "Fast movement",
+		"D": "Cold resistance"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Correct! Orangutans reproduce slowly so populations recover very slowly from declines.",
+	  "incorrect_feedback": "Wrong! Orangutans reproduce slowly so populations recover very slowly from declines."
+	},
+	{
+	  "id": 5,
+	  "question": "How does deforestation impact giant pandas?",
+	  "options": {
+		"A": "It improves shelter",
+		"B": "It reduces predators",
+		"C": "It reduces bamboo habitat",
+		"D": "It increases food supply"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Correct! Deforestation destroys bamboo forests which pandas rely on for food.",
+	  "incorrect_feedback": "Wrong! Deforestation destroys bamboo forests which pandas rely on for food."
+	},
+	{
+	  "id": 6,
+	  "question": "Which species is most affected by illegal wildlife trade?",
+	  "options": {
+		"A": "Deer",
+		"B": "Panda",
+		"C": "Orangutan",
+		"D": "Tiger"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Correct! Tigers are heavily targeted for their body parts in illegal markets.",
+	  "incorrect_feedback": "Wrong! Tigers are heavily targeted for their body parts in illegal markets."
+	},
+	{
+	  "id": 7,
+	  "question": "Which rainforest species spends most of its life in trees?",
+	  "options": {
+		"A": "Elephant",
+		"B": "Orangutan",
+		"C": "Panda",
+		"D": "Tiger"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Correct! Orangutans are arboreal and rely on forest canopies for survival.",
+	  "incorrect_feedback": "Wrong! Orangutans are arboreal and rely on forest canopies for survival."
+	},
+	{
+	  "id": 8,
+	  "question": "What type of habitat do all three species depend on?",
+	  "options": {
+		"A": "Forest ecosystems",
+		"B": "Arctic tundra",
+		"C": "Grasslands",
+		"D": "Deserts"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Correct! All three species rely on forest habitats for food and shelter.",
+	  "incorrect_feedback": "Wrong! All three species rely on forest habitats for food and shelter."
+	},
+	{
+	  "id": 9,
+	  "question": "Which threat affects all three species panda tiger and orangutan?",
+	  "options": {
+		"A": "Volcanic eruptions",
+		"B": "Ocean currents",
+		"C": "Habitat loss due to human activity",
+		"D": "Snowstorms"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Correct! Deforestation and human expansion reduce habitats for all three species.",
+	  "incorrect_feedback": "Wrong! Deforestation and human expansion reduce habitats for all three species."
+	},
+	{
+	  "id": 10,
+	  "question": "Why are tiger populations important for ecosystems?",
+	  "options": {
+		"A": "They reduce plant growth",
+		"B": "They regulate prey populations",
+		"C": "They remove water",
+		"D": "They increase pollution"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Correct! Tigers are apex predators that help maintain ecosystem balance.",
+	  "incorrect_feedback": "Wrong! Tigers are apex predators that help maintain ecosystem balance."
+	},
+	{
+	  "id": 11,
+	  "question": "Which conservation effort has helped increase panda populations?",
+	  "options": {
+		"A": "Deforestation",
+		"B": "Urban expansion",
+		"C": "Hunting programs",
+		"D": "Habitat protection and reserves"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Correct! Protected reserves and conservation programs have helped pandas recover.",
+	  "incorrect_feedback": "Wrong! Protected reserves and conservation programs have helped pandas recover."
+	},
+	{
+	  "id": 12,
+	  "question": "What role do orangutans play in rainforest ecosystems?",
+	  "options": {
+		"A": "Reducing sunlight",
+		"B": "Increasing pollution",
+		"C": "Seed dispersal",
+		"D": "Destroying plants"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Correct! Orangutans help spread seeds which supports forest regeneration.",
+	  "incorrect_feedback": "Wrong! Orangutans help spread seeds which supports forest regeneration."
+	},
+	{
+	  "id": 13,
+	  "question": "Which action would most help protect rainforest species?",
+	  "options": {
+		"A": "Reducing deforestation",
+		"B": "Expanding cities",
+		"C": "Using more fossil fuels",
+		"D": "Increasing logging"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Correct! Protecting forests preserves habitats for endangered species.",
+	  "incorrect_feedback": "Wrong! Protecting forests preserves habitats for endangered species."
+	},
+	{
+	  "id": 14,
+	  "question": "Why is biodiversity important in rainforests?",
+	  "options": {
+		"A": "Only plants matter",
+		"B": "It maintains ecosystem balance and resilience",
+		"C": "Only predators matter",
+		"D": "It has no effect"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Correct! High biodiversity keeps ecosystems stable and able to recover from changes.",
+	  "incorrect_feedback": "Wrong! High biodiversity keeps ecosystems stable and able to recover from changes."
+	}
+  ],
+  "habitat_Arctic": [
+	{
+	  "id": 0,
+	  "question": "Which Arctic species is classified as Vulnerable primarily due to sea ice loss driven by climate change?",
+	  "options": {
+		"A": "Arctic fox",
+		"B": "Caribou",
+		"C": "Snowy owl",
+		"D": "Polar bear"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Correct! Polar bears depend on sea ice as a hunting platform and are threatened as ice declines.",
+	  "incorrect_feedback": "Wrong! Polar bears depend on sea ice as a hunting platform and are threatened as ice declines."
+	},
+	{
+	  "id": 1,
+	  "question": "Which prey species is most critical to polar bear survival due to its high fat content?",
+	  "options": {
+		"A": "Arctic cod",
+		"B": "Seabirds",
+		"C": "Ringed seal",
+		"D": "Krill"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Correct! Ringed seals provide the high-fat energy polar bears need to survive in extreme conditions.",
+	  "incorrect_feedback": "Wrong! Ringed seals provide the high-fat energy polar bears need to survive in extreme conditions."
+	},
+	{
+	  "id": 2,
+	  "question": "Which Arctic pinniped relies on stable sea ice and snow cover to construct subnivean birth lairs?",
+	  "options": {
+		"A": "Ringed seal",
+		"B": "Elephant seal",
+		"C": "Gray seal",
+		"D": "Harp seal"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Correct! Ringed seals build snow dens over sea ice to protect their pups from cold and predators.",
+	  "incorrect_feedback": "Wrong! Ringed seals build snow dens over sea ice to protect their pups from cold and predators."
+	},
+	{
+	  "id": 3,
+	  "question": "Declines in which Arctic bird species are strongly linked to reductions in sea ice extent?",
+	  "options": {
+		"A": "Atlantic puffin",
+		"B": "Snowy owl",
+		"C": "Ivory gull",
+		"D": "Arctic tern"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Correct! Ivory gulls rely on sea ice for feeding and are declining as ice disappears.",
+	  "incorrect_feedback": "Wrong! Ivory gulls rely on sea ice for feeding and are declining as ice disappears."
+	},
+	{
+	  "id": 4,
+	  "question": "Which Arctic whale species experienced intensive commercial whaling and now faces threats from industrial activity?",
+	  "options": {
+		"A": "Blue whale",
+		"B": "Orca",
+		"C": "Beluga whale",
+		"D": "Bowhead whale"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Correct! Bowhead whales were heavily hunted and now face threats like shipping noise and oil exploration.",
+	  "incorrect_feedback": "Wrong! Bowhead whales were heavily hunted and now face threats like shipping noise and oil exploration."
+	},
+	{
+	  "id": 5,
+	  "question": "Which global environmental driver has the most widespread impact on Arctic species?",
+	  "options": {
+		"A": "Ocean currents",
+		"B": "Climate change",
+		"C": "Volcanic activity",
+		"D": "Seasonal daylight variation"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Correct! Climate change is rapidly warming the Arctic and melting critical sea ice habitats.",
+	  "incorrect_feedback": "Wrong! Climate change is rapidly warming the Arctic and melting critical sea ice habitats."
+	},
+	{
+	  "id": 6,
+	  "question": "From an ecological perspective what is the primary function of sea ice for polar bears?",
+	  "options": {
+		"A": "Shelter from predators",
+		"B": "Thermoregulation",
+		"C": "Hunting platform for seals",
+		"D": "Freshwater source"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Correct! Sea ice allows polar bears to access and hunt seals, their primary food source.",
+	  "incorrect_feedback": "Wrong! Sea ice allows polar bears to access and hunt seals, their primary food source."
+	},
+	{
+	  "id": 7,
+	  "question": "Bioaccumulation of toxins is a major issue for which Arctic species?",
+	  "options": {
+		"A": "Lemming",
+		"B": "Ivory gull",
+		"C": "Arctic hare",
+		"D": "Caribou"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Correct! Ivory gulls accumulate pollutants through the food chain, affecting health and reproduction.",
+	  "incorrect_feedback": "Wrong! Ivory gulls accumulate pollutants through the food chain, affecting health and reproduction."
+	},
+	{
+	  "id": 8,
+	  "question": "Earlier seasonal sea ice melt most directly impacts polar bears by what mechanism?",
+	  "options": {
+		"A": "Reducing hunting duration and success",
+		"B": "Expanding habitat",
+		"C": "Improving migration routes",
+		"D": "Increasing competition"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Correct! Less time on sea ice means fewer opportunities to hunt seals.",
+	  "incorrect_feedback": "Wrong! Less time on sea ice means fewer opportunities to hunt seals."
+	},
+	{
+	  "id": 9,
+	  "question": "Which relationship best represents a key predator–prey dynamic in the Arctic?",
+	  "options": {
+		"A": "Fox and Lemming",
+		"B": "Owl and fish",
+		"C": "Caribou and grass",
+		"D": "Polar bear and Ringed seal"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Correct! Polar bears rely heavily on ringed seals as their primary food source.",
+	  "incorrect_feedback": "Wrong! Polar bears rely heavily on ringed seals as their primary food source."
+	},
+	{
+	  "id": 10,
+	  "question": "Which mitigation strategy would most directly reduce long-term threats to Arctic biodiversity?",
+	  "options": {
+		"A": "Urban development",
+		"B": "Reducing greenhouse gas emissions",
+		"C": "Increasing fisheries",
+		"D": "Expanding road networks"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Correct! Lower emissions slow climate change and help preserve Arctic ecosystems.",
+	  "incorrect_feedback": "Wrong! Lower emissions slow climate change and help preserve Arctic ecosystems."
+	},
+	{
+	  "id": 11,
+	  "question": "Which organization is internationally recognized for Arctic species conservation efforts?",
+	  "options": {
+		"A": "Amazon",
+		"B": "FIFA",
+		"C": "World Wildlife Fund",
+		"D": "NASA"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Correct! WWF leads global conservation efforts including protecting Arctic habitats.",
+	  "incorrect_feedback": "Wrong! WWF leads global conservation efforts including protecting Arctic habitats."
+	},
+	{
+	  "id": 12,
+	  "question": "Modern threats to bowhead whales include which of the following?",
+	  "options": {
+		"A": "Desertification",
+		"B": "Deforestation",
+		"C": "Overhunting",
+		"D": "Increased shipping noise and industrial disturbance"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Correct! Shipping and industrial noise disrupt whale communication and behavior.",
+	  "incorrect_feedback": "Wrong! Shipping and industrial noise disrupt whale communication and behavior."
+	},
+	{
+	  "id": 13,
+	  "question": "Which individual-level action contributes most to reducing Arctic habitat degradation?",
+	  "options": {
+		"A": "Minimizing carbon footprint",
+		"B": "Driving more frequently",
+		"C": "Using more plastic",
+		"D": "Increasing energy use"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Correct! Reducing personal emissions helps slow climate change and habitat loss.",
+	  "incorrect_feedback": "Wrong! Reducing personal emissions helps slow climate change and habitat loss."
+	},
+	{
+	  "id": 14,
+	  "question": "Why is biodiversity critical to Arctic ecosystem stability?",
+	  "options": {
+		"A": "It has no effect",
+		"B": "Species interactions maintain balance and resilience",
+		"C": "Only climate matters",
+		"D": "Only predators matter"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Correct! Arctic ecosystems are interconnected, so losing one species can disrupt the entire system.",
+	  "incorrect_feedback": "Wrong! Arctic ecosystems are interconnected, so losing one species can disrupt the entire system."
+	}
+  ],
+  "habitat_CostalWetlands": [
+	{
+	  "id": 0,
+	  "question": "Which coastal wetland mammal is vulnerable due to boat strikes and habitat loss?",
+	  "options": {
+		"A": "Alligator",
+		"B": "Marsh rabbit",
+		"C": "Manatee",
+		"D": "Heron"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Correct! Manatees are often injured or killed by boats and lose habitat due to coastal development.",
+	  "incorrect_feedback": "Wrong! Manatees are often injured or killed by boats and lose habitat due to coastal development."
+	},
+	{
+	  "id": 1,
+	  "question": "Which wetland bird depends on shallow water habitats for feeding and is affected by water pollution?",
+	  "options": {
+		"A": "Manatee",
+		"B": "Heron",
+		"C": "Marsh rabbit",
+		"D": "Alligator"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Correct! Herons rely on clean shallow waters to hunt fish and are affected by pollution.",
+	  "incorrect_feedback": "Wrong! Herons rely on clean shallow waters to hunt fish and are affected by pollution."
+	},
+	{
+	  "id": 2,
+	  "question": "Which large reptile is affected by wetland loss but has recovered due to conservation laws?",
+	  "options": {
+		"A": "Heron",
+		"B": "Manatee",
+		"C": "Marsh rabbit",
+		"D": "Alligator"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Correct! Alligators were once endangered but recovered due to protection and habitat conservation.",
+	  "incorrect_feedback": "Wrong! Alligators were once endangered but recovered due to protection and habitat conservation."
+	},
+	{
+	  "id": 3,
+	  "question": "Which small wetland mammal is threatened by habitat loss and flooding?",
+	  "options": {
+		"A": "Marsh rabbit",
+		"B": "Alligator",
+		"C": "Manatee",
+		"D": "Heron"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Correct! Marsh rabbits depend on dense wetland vegetation and are vulnerable to habitat changes.",
+	  "incorrect_feedback": "Wrong! Marsh rabbits depend on dense wetland vegetation and are vulnerable to habitat changes."
+	},
+	{
+	  "id": 4,
+	  "question": "What is a major threat to manatee populations?",
+	  "options": {
+		"A": "Volcanic activity",
+		"B": "Boat collisions and habitat loss",
+		"C": "Predation by birds",
+		"D": "Cold weather"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Correct! Boat strikes are a leading cause of injury and death for manatees.",
+	  "incorrect_feedback": "Wrong! Boat strikes are a leading cause of injury and death for manatees."
+	},
+	{
+	  "id": 5,
+	  "question": "How does water pollution affect herons?",
+	  "options": {
+		"A": "It eliminates predators",
+		"B": "It increases nesting success",
+		"C": "It reduces prey availability",
+		"D": "It improves hunting"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Correct! Pollution can kill fish which reduces food for herons.",
+	  "incorrect_feedback": "Wrong! Pollution can kill fish which reduces food for herons."
+	},
+	{
+	  "id": 6,
+	  "question": "Why were alligators once endangered?",
+	  "options": {
+		"A": "Overhunting and habitat loss",
+		"B": "Cold temperatures",
+		"C": "Ocean pollution",
+		"D": "Too many predators"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Correct! Alligators were hunted heavily for their skin and lost habitat.",
+	  "incorrect_feedback": "Wrong! Alligators were hunted heavily for their skin and lost habitat."
+	},
+	{
+	  "id": 7,
+	  "question": "Which species is most sensitive to flooding and habitat changes in wetlands?",
+	  "options": {
+		"A": "Heron",
+		"B": "Alligator",
+		"C": "Manatee",
+		"D": "Marsh rabbit"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Correct! Marsh rabbits rely on stable vegetation and are easily affected by flooding.",
+	  "incorrect_feedback": "Wrong! Marsh rabbits rely on stable vegetation and are easily affected by flooding."
+	},
+	{
+	  "id": 8,
+	  "question": "Which habitat do all four species depend on?",
+	  "options": {
+		"A": "Mountains",
+		"B": "Wetland ecosystems",
+		"C": "Grasslands",
+		"D": "Deserts"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Correct! All these species rely on wetlands for food shelter and reproduction.",
+	  "incorrect_feedback": "Wrong! All these species rely on wetlands for food shelter and reproduction."
+	},
+	{
+	  "id": 9,
+	  "question": "Which threat affects all four species manatee heron alligator and marsh rabbit?",
+	  "options": {
+		"A": "Glaciers",
+		"B": "Snowstorms",
+		"C": "Habitat loss and pollution",
+		"D": "Volcanic eruptions"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Correct! Human development and pollution reduce wetland habitats.",
+	  "incorrect_feedback": "Wrong! Human development and pollution reduce wetland habitats."
+	},
+	{
+	  "id": 10,
+	  "question": "How do manatees contribute to wetland ecosystems?",
+	  "options": {
+		"A": "They destroy habitats",
+		"B": "They reduce oxygen",
+		"C": "They increase pollution",
+		"D": "They help maintain aquatic vegetation"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Correct! Manatees graze on plants which helps maintain healthy ecosystems.",
+	  "incorrect_feedback": "Wrong! Manatees graze on plants which helps maintain healthy ecosystems."
+	},
+	{
+	  "id": 11,
+	  "question": "Which wetland predator helps control fish and small animal populations?",
+	  "options": {
+		"A": "Heron",
+		"B": "Alligator",
+		"C": "Manatee",
+		"D": "Marsh rabbit"
+	  },
+	  "correct_answer": "B",
+	  "correct_feedback": "Correct! Alligators play a key role in maintaining balance in wetland ecosystems.",
+	  "incorrect_feedback": "Wrong! Alligators play a key role in maintaining balance in wetland ecosystems."
+	},
+	{
+	  "id": 12,
+	  "question": "Which conservation action best protects wetland species?",
+	  "options": {
+		"A": "Protecting and restoring wetlands",
+		"B": "Draining wetlands",
+		"C": "Building more roads",
+		"D": "Increasing development"
+	  },
+	  "correct_answer": "A",
+	  "correct_feedback": "Correct! Habitat protection is critical for wetland species survival.",
+	  "incorrect_feedback": "Wrong! Habitat protection is critical for wetland species survival."
+	},
+	{
+	  "id": 13,
+	  "question": "Which species is most at risk from human disturbance due to slow movement?",
+	  "options": {
+		"A": "Heron",
+		"B": "Marsh rabbit",
+		"C": "Manatee",
+		"D": "Alligator"
+	  },
+	  "correct_answer": "C",
+	  "correct_feedback": "Correct! Manatees move slowly and are vulnerable to boats and human activity.",
+	  "incorrect_feedback": "Wrong! Manatees move slowly and are vulnerable to boats and human activity."
+	},
+	{
+	  "id": 14,
+	  "question": "Why is biodiversity important in wetland ecosystems?",
+	  "options": {
+		"A": "Only plants matter",
+		"B": "Only predators matter",
+		"C": "It has no effect",
+		"D": "It maintains ecosystem balance and resilience"
+	  },
+	  "correct_answer": "D",
+	  "correct_feedback": "Correct! Diverse species interactions keep wetlands stable and functioning.",
+	  "incorrect_feedback": "Wrong! Diverse species interactions keep wetlands stable and functioning."
+	}
+  ]
+}

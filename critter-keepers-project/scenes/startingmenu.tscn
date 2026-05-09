@@ -48,10 +48,6 @@ grow_vertical = 0
 layout_mode = 2
 text = "New Game"
 
-[node name="Load Game" type="Button" parent="Main Menu/VBoxContainer" unique_id=2104142040]
-layout_mode = 2
-text = "Load Game"
-
 [node name="Settings" type="Button" parent="Main Menu/VBoxContainer" unique_id=1915071577]
 layout_mode = 2
 text = "Settings
@@ -79,6 +75,5 @@ text = "Critter Keepers
 "
 
 [connection signal="pressed" from="Main Menu/VBoxContainer/New Game" to="Main Menu" method="_on_new_game_pressed"]
-[connection signal="pressed" from="Main Menu/VBoxContainer/Load Game" to="Main Menu" method="_on_load_game_pressed"]
 [connection signal="pressed" from="Main Menu/VBoxContainer/Settings" to="Main Menu" method="_on_settings_pressed"]
 [connection signal="pressed" from="Main Menu/VBoxContainer/Quit" to="Main Menu" method="_on_quit_pressed"]

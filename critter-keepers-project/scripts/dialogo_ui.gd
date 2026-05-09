@@ -17,13 +17,7 @@ var domanda_attuale: Dictionary = {}
 var guru_corrente: int = 0
 var hud: CanvasLayer = null
 
-var messaggi_bloccati := [
-	"You are not ready for this guru yet.",
-	"Answer the previous guru first.",
-	"One step at a time.",
-	"The path is still closed to you.",
-	"Complete the earlier challenge first."
-]
+var messaggi_bloccati := ["BLOC1", "BLOC2", "BLOC3", "BLOC4", "BLOC5"]
 
 func _ready() -> void:
 	add_to_group("dialogo_ui")
@@ -73,7 +67,7 @@ func mostra_messaggio_bloccato(guru_position: Vector2) -> void:
 	guru_corrente = 0
 
 	label_npc.text = ""
-	label_domande.text = messaggi_bloccati[randi() % messaggi_bloccati.size()]
+	label_domande.text = tr(messaggi_bloccati[randi() % messaggi_bloccati.size()])
 	label_feedback.text = ""
 	label_feedback.modulate = Color(1, 1, 1, 1)
 
@@ -85,6 +79,9 @@ func mostra_messaggio_bloccato(guru_position: Vector2) -> void:
 	visible = true
 	await get_tree().process_frame
 	posiziona_sopra_guru(guru_position)
+	var player = get_tree().get_first_node_in_group("player")
+	if player:
+		player.bloccato = false
 
 func mostra_messaggio_custom(msg: String, guru_position: Vector2) -> void:
 	domanda_attuale = {}
@@ -103,14 +100,15 @@ func mostra_messaggio_custom(msg: String, guru_position: Vector2) -> void:
 	visible = true
 	await get_tree().process_frame
 	posiziona_sopra_guru(guru_position)
+	var player = get_tree().get_first_node_in_group("player")
+	if player:
+		player.bloccato = false
 
 func posiziona_sopra_guru(world_position: Vector2) -> void:
-	var screen_position = get_viewport().get_canvas_transform() * world_position
-
-	screen_position.x -= pannello.size.x / 2.0
-	screen_position.y -= 140
-
-	pannello.position = screen_position
+	await get_tree().process_frame
+	var viewport_size = get_viewport().get_visible_rect().size
+	# Angolo in basso a sinistra = centro schermo
+	pannello.position = Vector2(viewport_size.x / 2.0, viewport_size.y / 2.0)
 
 func _on_risposta_selezionata(scelta: String) -> void:
 	btn_a.disabled = true
@@ -136,4 +134,7 @@ func _on_risposta_selezionata(scelta: String) -> void:
 		label_feedback.modulate = Color(0.8, 0.2, 0.2)
 
 func _on_btn_chiudi_pressed() -> void:
+	var player = get_tree().get_first_node_in_group("player")
+	if player:
+		player.bloccato = false
 	visible = false

@@ -27,9 +27,9 @@ func aggiungi_xp(quantita: int):
 	xp += quantita
 	while xp >= XP_PER_LIVELLO:
 		xp -= XP_PER_LIVELLO
-		mostra_notifica("⭐ Livello raggiunto!")
+		mostra_notifica(tr("LIVELLO_RAGGIUNTO"))
 		return
-	mostra_notifica("+10 XP   +10 Monete")
+	mostra_notifica(tr("XP_MONETE"))
 	aggiorna_ui()
 
 func aggiungi_monete(quantita: int):

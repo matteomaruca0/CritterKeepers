@@ -22,7 +22,7 @@ func _ready():
 	btn_si.pressed.connect(_on_si)
 	btn_no.pressed.connect(_on_no)
 	btn_nuota.pressed.connect(_on_nuota)
-	btn_vola.pressed.connect(_on_vola)
+	#btn_vola.pressed.connect(_on_vola)
 
 func get_player():
 	var player = get_tree().get_first_node_in_group("player")
@@ -47,8 +47,8 @@ func _on_si():
 	btn_no.visible = false
 	scelta_container.visible = true
 
-	btn_vola.disabled = !volo_sbloccato
-	btn_vola.text = "VOLARE" if volo_sbloccato else "VOLARE BLOCCATO"
+	#btn_vola.disabled = !volo_sbloccato
+	#btn_vola.text = "VOLARE" if volo_sbloccato else "VOLARE BLOCCATO"
 
 func _on_no():
 	visible = false

@@ -21,7 +21,7 @@ text = "⏸"
 custom_minimum_size = Vector2(200, 150)
 offset_left = 1081.0
 offset_right = 1281.0
-offset_bottom = 150.0
+offset_bottom = 185.0
 
 [node name="VBoxContainer" type="VBoxContainer" parent="PanelMenu" unique_id=199174673]
 layout_mode = 0
@@ -30,23 +30,23 @@ offset_top = 26.0
 offset_right = 149.0
 offset_bottom = 127.0
 
-[node name="BtnSaveAndEsc" type="Button" parent="PanelMenu/VBoxContainer" unique_id=1430568152]
-layout_mode = 2
-text = "Save and esc"
-
 [node name="BtnEsc" type="Button" parent="PanelMenu/VBoxContainer" unique_id=1724840826]
 layout_mode = 2
-text = "Esc"
+text = "ESCI"
 
 [node name="BtnSettings" type="Button" parent="PanelMenu/VBoxContainer" unique_id=36415679]
 layout_mode = 2
-text = "Settings"
+text = "IMPOSTAZIONI"
+
+[node name="BtnClose" type="Button" parent="PanelMenu/VBoxContainer" unique_id=1691016054]
+layout_mode = 2
+text = "CHIUDI"
 
 [node name="PanelSettings" type="Panel" parent="." unique_id=1819461962]
 offset_left = 565.0
 offset_top = 292.0
 offset_right = 708.0
-offset_bottom = 429.0
+offset_bottom = 490.0
 
 [node name="VBoxContainer" type="VBoxContainer" parent="PanelSettings" unique_id=99645998]
 layout_mode = 0
@@ -59,12 +59,24 @@ text = "Lingua / Language"
 
 [node name="BtnItalian" type="Button" parent="PanelSettings/VBoxContainer" unique_id=1578805250]
 layout_mode = 2
-text = "🇮🇹 Italiano"
+text = "Italiano"
 
 [node name="BtnEnglish" type="Button" parent="PanelSettings/VBoxContainer" unique_id=759018349]
 layout_mode = 2
-text = "🇬🇧 English"
+text = "English"
+
+[node name="HSeparator" type="HSeparator" parent="PanelSettings/VBoxContainer" unique_id=500270555]
+layout_mode = 2
+
+[node name="LabelMusic" type="Label" parent="PanelSettings/VBoxContainer" unique_id=1558757307]
+layout_mode = 2
+text = "MUSICA"
+horizontal_alignment = 1
+
+[node name="CheckBoxMusic" type="CheckBox" parent="PanelSettings/VBoxContainer" unique_id=1936733703]
+layout_mode = 2
+text = "MUSICA"
 
 [node name="BtnClose" type="Button" parent="PanelSettings/VBoxContainer" unique_id=215331237]
 layout_mode = 2
-text = "Close"
+text = "CHIUDI"
