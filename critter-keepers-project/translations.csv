@@ -18,4 +18,9 @@ LIVELLO_RAGGIUNTO, ⭐ Livello raggiunto!, ⭐ Level reached!
 XP_MONETE, +10 XP   +10 Monete, +10 XP   +10 Coins
 SALVA_ESCI, Salva e esci, Save and esc
 ISTRUZIONI, Istruzioni del gioco, Game instructions
-DESC_ISTRUZIONI, Il mondo ha molto da dirti muoviti per la mappa per rispondere alle domande dei guru e con la consapevolezza salvare gli animali!!, The world has a lot to tell you-move around the map to answer the gurus’ questions and with this knowledge save the animals!!  
+DESC_ISTRUZIONI, Il mondo ha molto da dirti muoviti per la mappa per rispondere alle domande dei guru e con la consapevolezza salvare gli animali!!, The world has a lot to tell you-move around the map to answer the gurus’ questions and with this knowledge save the animals!!
+BLOC1, Non sei ancora pronto per questo guru., You are not ready for this guru yet
+BLOC2, Rispondi prima al guru precedente., Answer the previous guru first.
+BLOC3, Un passo alla volta., One step at a time.
+BLOC4, Il cammino è ancora chiuso per te., The path is still closed to you.
+BLOC5, Completa prima la sfida precedente., Complete the earlier challenge first.

@@ -1,10 +1,12 @@
 extends CanvasLayer
 
+
 @onready var btn_pausa = $BtnPause
 @onready var panel_menu = $PanelMenu
 @onready var btn_salva_esci = $PanelMenu/VBoxContainer/BtnSaveAndEsc
 @onready var btn_esci = $PanelMenu/VBoxContainer/BtnEsc
 @onready var btn_impostazioni = $PanelMenu/VBoxContainer/BtnSettings
+@onready var btn_close = $PanelMenu/VBoxContainer/BtnClose
 @onready var panel_impostazioni = $PanelSettings
 @onready var btn_italiano = $PanelSettings/VBoxContainer/BtnItalian
 @onready var btn_inglese = $PanelSettings/VBoxContainer/BtnEnglish
@@ -20,6 +22,11 @@ func _ready():
 	btn_italiano.pressed.connect(_on_italiano)
 	btn_inglese.pressed.connect(_on_inglese)
 	btn_chiudi_impostazioni.pressed.connect(_on_chiudi_impostazioni)
+	btn_close.pressed.connect(_on_chiudi)
+	
+func _on_chiudi(): 
+	panel_menu.visible = false
+	get_tree().paused = false
 
 func _on_pausa():
 	panel_menu.visible = !panel_menu.visible

@@ -91,6 +91,7 @@ func _on_player_uscito(body: Node2D) -> void:
 
 func _input(event: InputEvent) -> void:
 	if player_in_range and event.is_action_pressed("ui_accept"):
+		
 		var dialogo = get_tree().get_first_node_in_group("dialogo_ui")
 
 		if dialogo == null:
@@ -105,8 +106,13 @@ func _input(event: InputEvent) -> void:
 			return
 
 		_avvia_dialogo()
+		#var player = get_tree().get_first_node_in_group("player")
+		#player.bloccato = false
 
 func _avvia_dialogo() -> void:
+	#var player = get_tree().get_first_node_in_group("player")
+	#player.bloccato = true
+	
 	if domande.is_empty():
 		print("No questions loaded for guru ", guru_id)
 		return
@@ -131,5 +137,9 @@ func _avvia_dialogo() -> void:
 
 	if dialogo:
 		dialogo.mostra_domanda(domanda_corrente, guru_id, global_position)
+		
+	var player = get_tree().get_first_node_in_group("player")
+	if player:
+		player.bloccato = true
 		
 		
