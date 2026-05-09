@@ -13,7 +13,6 @@ func _process(delta: float) -> void:
 
 func _on_new_game_pressed():
 	print('New Game Pressed')
-	print('New Game')
 	get_tree().change_scene_to_file("res://scenes/map2.tscn")
 
 
