@@ -31,12 +31,9 @@
 [ext_resource type="PackedScene" uid="uid://knojof368yft" path="res://scenes/deer.tscn" id="26_634t6"]
 [ext_resource type="PackedScene" uid="uid://bvs76j4bgh4pu" path="res://scenes/dialogo_ui.tscn" id="27_gke1n"]
 [ext_resource type="PackedScene" uid="uid://c8f5171s10ajs" path="res://scenes/progressBar.tscn" id="28_7xidg"]
-<<<<<<< HEAD
 [ext_resource type="PackedScene" uid="uid://cb587j8n81ctu" path="res://scenes/bear.tscn" id="29_3gvmb"]
-=======
-[ext_resource type="PackedScene" uid="uid://8r5sjyqrncs4" path="res://scenes/ui_instructions.tscn" id="29_3gvmb"]
+[ext_resource type="PackedScene" uid="uid://8r5sjyqrncs4" path="res://scenes/ui_instructions.tscn" id="30_ui"]
 [ext_resource type="AudioStream" uid="uid://dqrjaisedwx70" path="res://assets/music/time_for_adventure.ogg" id="33_3fdqk"]
->>>>>>> fixing
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0cso3"]
 texture = ExtResource("2_rbyf4")
@@ -2920,19 +2917,11 @@ position = Vector2(-1303, -1450)
 [node name="New_Player" parent="." unique_id=2022348183 instance=ExtResource("24_ntdhj")]
 position = Vector2(-1046, -201)
 
-<<<<<<< HEAD
-[node name="NPCguru" parent="." unique_id=877199368 instance=ExtResource("25_rbyf4")]
-position = Vector2(-468.00003, -231)
-
-[node name="NPCguru2" parent="." unique_id=1151683968 instance=ExtResource("25_rbyf4")]
-position = Vector2(-1430, -162)
-=======
 [node name="NPCguru" parent="." unique_id=877199368 groups=["habitat_temperateForest"] instance=ExtResource("25_rbyf4")]
 position = Vector2(-420, -196)
 
 [node name="NPCguru2" parent="." unique_id=1151683968 groups=["habitat_temperateForest"] instance=ExtResource("25_rbyf4")]
 position = Vector2(-1480, -196)
->>>>>>> fixing
 guru_id = 2
 
 [node name="deer" parent="." unique_id=911132381 instance=ExtResource("26_634t6")]
@@ -2947,17 +2936,14 @@ position = Vector2(-920, -196)
 
 [node name="HUD" parent="." unique_id=254681411 instance=ExtResource("28_7xidg")]
 
-<<<<<<< HEAD
 [node name="bear1" parent="." unique_id=567333202 instance=ExtResource("29_3gvmb")]
 position = Vector2(32, -16)
 
 [node name="bear2" parent="." unique_id=154921773 instance=ExtResource("29_3gvmb")]
 position = Vector2(44, 36)
-=======
-[node name="UI_Instructions" parent="." unique_id=306908734 instance=ExtResource("29_3gvmb")]
+[node name="UI_Instructions" parent="." unique_id=306908734 instance=ExtResource("30_ui")]
 
 [node name="BackgroundMusic" type="AudioStreamPlayer2D" parent="." unique_id=331658993 groups=["background_music"]]
 stream = ExtResource("33_3fdqk")
 volume_db = -10.0
 autoplay = true
->>>>>>> fixing
