@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://be8tw3puahggl"]
+[gd_scene format=3 uid="uid://vp20ruar6jru"]
 
 [ext_resource type="Script" uid="uid://c8sr8tu5focp8" path="res://scripts/deer_wandering.gd" id="1_mk04t"]
 [ext_resource type="Texture2D" uid="uid://fr4qso1h1rbv" path="res://assets/sprites/animals/marmot_idle.png" id="2_mk04t"]

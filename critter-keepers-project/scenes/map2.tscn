@@ -32,8 +32,12 @@
 [ext_resource type="PackedScene" uid="uid://bvs76j4bgh4pu" path="res://scenes/dialogo_ui.tscn" id="27_gke1n"]
 [ext_resource type="PackedScene" uid="uid://c8f5171s10ajs" path="res://scenes/progressBar.tscn" id="28_7xidg"]
 [ext_resource type="PackedScene" uid="uid://cb587j8n81ctu" path="res://scenes/bear.tscn" id="29_3gvmb"]
+[ext_resource type="PackedScene" uid="uid://vp20ruar6jru" path="res://scenes/marmot.tscn" id="30_4w0jn"]
 [ext_resource type="PackedScene" uid="uid://8r5sjyqrncs4" path="res://scenes/ui_instructions.tscn" id="30_ui"]
+[ext_resource type="PackedScene" path="res://scenes/ibex.tscn" id="31_itcgc"]
 [ext_resource type="AudioStream" uid="uid://dqrjaisedwx70" path="res://assets/music/time_for_adventure.ogg" id="33_3fdqk"]
+[ext_resource type="PackedScene" uid="uid://8syye7qs7efn" path="res://scenes/camel.tscn" id="37_7ajwb"]
+[ext_resource type="PackedScene" uid="uid://dujgkispmdars" path="res://scenes/hyena.tscn" id="38_eyhqu"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0cso3"]
 texture = ExtResource("2_rbyf4")
@@ -2915,7 +2919,7 @@ position = Vector2(-1303, -1450)
 [node name="pause_menu" parent="." unique_id=1973581301 instance=ExtResource("23_x7l00")]
 
 [node name="New_Player" parent="." unique_id=2022348183 instance=ExtResource("24_ntdhj")]
-position = Vector2(-1046, -201)
+position = Vector2(-544, -196)
 
 [node name="NPCguru" parent="." unique_id=877199368 groups=["habitat_temperateForest"] instance=ExtResource("25_rbyf4")]
 position = Vector2(-420, -196)
@@ -2923,6 +2927,22 @@ position = Vector2(-420, -196)
 [node name="NPCguru2" parent="." unique_id=1151683968 groups=["habitat_temperateForest"] instance=ExtResource("25_rbyf4")]
 position = Vector2(-1480, -196)
 guru_id = 2
+
+[node name="NPCguru3" parent="." unique_id=1235879256 groups=["habitat_temperateForest"] instance=ExtResource("25_rbyf4")]
+position = Vector2(908, -403.00006)
+guru_id = 3
+
+[node name="NPCguru4" parent="." unique_id=2038918551 groups=["habitat_temperateForest"] instance=ExtResource("25_rbyf4")]
+position = Vector2(557.00006, -793)
+guru_id = 4
+
+[node name="NPCguru5" parent="." unique_id=2023364796 groups=["habitat_temperateForest"] instance=ExtResource("25_rbyf4")]
+position = Vector2(-720, -1375)
+guru_id = 5
+
+[node name="NPCguru6" parent="." unique_id=1300391587 groups=["habitat_temperateForest"] instance=ExtResource("25_rbyf4")]
+position = Vector2(-1204, -1528)
+guru_id = 6
 
 [node name="deer" parent="." unique_id=911132381 instance=ExtResource("26_634t6")]
 position = Vector2(-720, -196)
@@ -2937,13 +2957,63 @@ position = Vector2(-920, -196)
 [node name="HUD" parent="." unique_id=254681411 instance=ExtResource("28_7xidg")]
 
 [node name="bear1" parent="." unique_id=567333202 instance=ExtResource("29_3gvmb")]
-position = Vector2(32, -16)
+position = Vector2(35, -19)
 
 [node name="bear2" parent="." unique_id=154921773 instance=ExtResource("29_3gvmb")]
 position = Vector2(44, 36)
+
 [node name="UI_Instructions" parent="." unique_id=306908734 instance=ExtResource("30_ui")]
 
 [node name="BackgroundMusic" type="AudioStreamPlayer2D" parent="." unique_id=331658993 groups=["background_music"]]
 stream = ExtResource("33_3fdqk")
 volume_db = -10.0
 autoplay = true
+
+[node name="ibex1" parent="." unique_id=1882193882 instance=ExtResource("31_itcgc")]
+position = Vector2(582, -506)
+
+[node name="ibex2" parent="." unique_id=975919139 instance=ExtResource("31_itcgc")]
+position = Vector2(678, -697)
+
+[node name="ibex3" parent="." unique_id=859263476 instance=ExtResource("31_itcgc")]
+position = Vector2(861, -365)
+
+[node name="marmot1" parent="." unique_id=1713658363 instance=ExtResource("30_4w0jn")]
+position = Vector2(1177, -661)
+
+[node name="marmot2" parent="." unique_id=1245937737 instance=ExtResource("30_4w0jn")]
+position = Vector2(1125, -492)
+
+[node name="marmot3" parent="." unique_id=1197756881 instance=ExtResource("30_4w0jn")]
+position = Vector2(947, -384)
+
+[node name="marmot4" parent="." unique_id=1419340176 instance=ExtResource("30_4w0jn")]
+position = Vector2(621, -553)
+
+[node name="camel1" parent="." unique_id=1422128865 instance=ExtResource("37_7ajwb")]
+position = Vector2(-980, -1227)
+scale = Vector2(8, 8)
+
+[node name="camel2" parent="." unique_id=1109122588 instance=ExtResource("37_7ajwb")]
+position = Vector2(-806, -1347)
+scale = Vector2(8, 8)
+
+[node name="camel3" parent="." unique_id=1125821680 instance=ExtResource("37_7ajwb")]
+position = Vector2(-761, -1117)
+scale = Vector2(8, 8)
+
+[node name="camel4" parent="." unique_id=1532766038 instance=ExtResource("37_7ajwb")]
+position = Vector2(-1187, -1200)
+scale = Vector2(8, 8)
+
+[node name="hyena1" parent="." unique_id=147818233 instance=ExtResource("38_eyhqu")]
+position = Vector2(-1149, -1182)
+scale = Vector2(8, 8)
+
+[node name="hyena2" parent="." unique_id=1051640780 instance=ExtResource("38_eyhqu")]
+position = Vector2(-1168, -1305)
+scale = Vector2(8, 8)
+
+[node name="hyena3" parent="." unique_id=75887552 instance=ExtResource("38_eyhqu")]
+position = Vector2(-1038, -1260)
+scale = Vector2(8, 8)
