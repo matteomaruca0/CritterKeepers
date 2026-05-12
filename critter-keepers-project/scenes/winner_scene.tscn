@@ -1,0 +1,64 @@
+[gd_scene format=3 uid="uid://b0xvb7wgmvlf3"]
+
+[ext_resource type="Texture2D" uid="uid://bthchn2b7n3dk" path="res://background1.png" id="1_122hy"]
+[ext_resource type="Script" uid="uid://bnq2q0sce8qqi" path="res://scripts/winner_scene.gd" id="1_n4rr2"]
+[ext_resource type="FontFile" uid="uid://cs0bp4s0xg7ri" path="res://GrapeSoda.ttf" id="2_psp43"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ywo55"]
+texture = ExtResource("1_122hy")
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_psp43"]
+
+[node name="WinnerScene" type="Control" unique_id=1471148099]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_n4rr2")
+
+[node name="Panel" type="Panel" parent="." unique_id=1878710317]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_ywo55")
+
+[node name="Label" type="Label" parent="Panel" unique_id=488530314]
+layout_mode = 0
+offset_top = 300.0
+offset_right = 1280.0
+offset_bottom = 685.0
+theme_override_colors/font_shadow_color = Color(0.015686275, 0.015686275, 0.011764706, 1)
+theme_override_colors/font_outline_color = Color(0.015686275, 0.015686275, 0.011764706, 1)
+theme_override_constants/shadow_offset_x = 0
+theme_override_constants/shadow_offset_y = 3
+theme_override_constants/outline_size = 20
+theme_override_fonts/font = ExtResource("2_psp43")
+theme_override_font_sizes/font_size = 190
+theme_override_styles/normal = SubResource("StyleBoxEmpty_psp43")
+text = "Winner!
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel" unique_id=930103919]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -32.0
+offset_top = -31.0
+offset_right = 32.0
+grow_horizontal = 2
+grow_vertical = 0
+alignment = 2
+
+[node name="BtnClose" type="Button" parent="Panel/VBoxContainer" unique_id=16885776]
+layout_mode = 2
+text = "CHIUDI"

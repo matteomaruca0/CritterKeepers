@@ -42,3 +42,6 @@ func register_correct_answer(guru_id: int, question_id: String) -> void:
 	if guru_correct_counts[guru_id] >= guru_total_questions.get(guru_id, 999999):
 		current_guru += 1
 		print("Unlocked guru ", current_guru)
+
+func getCurrentGuru() -> int:
+	return current_guru

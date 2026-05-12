@@ -101,7 +101,7 @@ horizontal_alignment = 1
 layout_mode = 2
 theme_override_colors/font_color = Color(0.54901963, 0.54901963, 0.6, 1)
 theme_override_font_sizes/font_size = 11
-text = "0 / 100 XP"
+text = "0 / 2400 XP"
 
 [node name="ProgressBar" type="ProgressBar" parent="UIRoot/PanelContainer/HBoxContainer/VBoxContainer" unique_id=904651927]
 custom_minimum_size = Vector2(0, 8)

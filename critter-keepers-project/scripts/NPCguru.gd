@@ -29,7 +29,7 @@ func _ready() -> void:
 	_carica_domande()
 	
 	if not domande.is_empty():
-		GameManager.register_guru_total(guru_id, domande.size())
+		GameManager.register_guru_total(guru_id, 3) #3
 
 	label_interagisci.visible = false
 

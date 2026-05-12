@@ -9,10 +9,17 @@ script = ExtResource("1_chjen")
 
 [node name="PanelContainer" type="PanelContainer" parent="." unique_id=1977353059]
 custom_minimum_size = Vector2(200, 100)
-offset_left = 455.0
-offset_top = 225.0
-offset_right = 833.0
-offset_bottom = 425.0
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -189.0
+offset_top = -100.0
+offset_right = 189.0
+offset_bottom = 100.0
+grow_horizontal = 2
+grow_vertical = 2
 
 [node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer" unique_id=262031028]
 layout_mode = 2
@@ -37,4 +44,4 @@ autowrap_mode = 2
 [node name="ButtonClose" type="Button" parent="PanelContainer/VBoxContainer" unique_id=257756682]
 layout_mode = 2
 action_mode = 0
-text = "CLOSE"
+text = "CHIUDI"
