@@ -6,6 +6,3 @@ Authors:
 
 -António Falcão
 
-## Specifications
-
-See [specs](./specs/specs.md).
